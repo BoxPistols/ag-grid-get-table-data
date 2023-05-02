@@ -1,25 +1,29 @@
 import React, { useState } from "react"
 import "ag-grid-enterprise"
 import Grid from "./Grid"
-import "./styles.css"
+import { CssBaseline, Container, Typography, Box } from "@mui/material"
 import SideItems from "./SideItems"
-import Box from "@mui/material/Box"
+import ColumnLists from "./ColumnLists"
 
 export default function App() {
-  // useStateを使って、selectedItemを定義 (初期値はnull)
   const [selectedItem, setSelectedItem] = useState<any[] | null | string>(null)
-  // useStateを使って、keyListを定義 (初期値は空の配列)
-  const [, setKeyList] = useState<string[]>([])
+  const [keyList, setKeyList] = useState<string[]>([])
 
   return (
     <>
-      <h2>AgGrid Example</h2>
-      <Box display="flex">
-        {/* // SideItemsコンポーネントを定義 (onItemClickには、setSelectedItemを渡す) */}
-        <SideItems onItemClick={(data) => setSelectedItem(data)} />
-        {/* // Gridコンポーネントを定義 (selectedItemとonKeysUpdateを渡す) */}
-        <Grid selectedItem={selectedItem} onKeysUpdate={setKeyList} />
-      </Box>
+      <CssBaseline />
+      <Container maxWidth="xl">
+        <Box pt={4} pb={4}>
+          <Typography variant="h4" align="center" gutterBottom>
+            AgGrid Example
+          </Typography>
+          <Box display="flex">
+            <SideItems onItemClick={(data) => setSelectedItem(data)} />
+            <ColumnLists keyList={keyList} />
+            <Grid selectedItem={selectedItem} onKeysUpdate={setKeyList} />
+          </Box>
+        </Box>
+      </Container>
     </>
   )
 }
