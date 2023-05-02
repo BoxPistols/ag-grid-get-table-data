@@ -1,16 +1,20 @@
-import React, { useRef, useEffect, useState } from "react";
-import { AgGridReact } from "ag-grid-react";
-import "ag-grid-community/styles/ag-grid.css";
-import "ag-grid-community/styles/ag-theme-alpine.css";
+import React, { useRef, useEffect, useState } from "react"
+import { AgGridReact } from "ag-grid-react"
+import "ag-grid-community/styles/ag-grid.css"
+import "ag-grid-community/styles/ag-theme-alpine.css"
 import {
   GridReadyEvent,
   GridApi,
   ColumnApi,
   ColDef,
-  IStatusPanelParams,
-} from "ag-grid-community";
-import { fetchData, Athlete } from "./api";
+  // IStatusPanelParams,
+} from "ag-grid-community"
+import { fetchData, Athlete, fetchDataSet } from "./api" // <- Add fetchDataSet here
 // import { fetchData, fetchLargeData, Athlete } from "./api";
+
+type GridProps = {
+  selectedItem: number | null
+}
 
 const columnDefs: ColDef[] = [
   {
@@ -73,28 +77,34 @@ const columnDefs: ColDef[] = [
     field: "total",
     width: 100,
   },
-];
+]
 
 type AgGridApi = {
-  grid?: GridApi;
-  column?: ColumnApi;
-};
+  grid?: GridApi
+  column?: ColumnApi
+}
 
-function Grid() {
-  const [rowData, setRowData] = useState<Athlete[]>([]);
+function Grid({ selectedItem }: GridProps) {
+  const [rowData, setRowData] = useState<Athlete[]>([])
   const apiRef = useRef<AgGridApi>({
     grid: undefined,
     column: undefined,
-  });
+  })
   const onGridReady = (params: GridReadyEvent) => {
-    apiRef.current.grid = params.api;
-    apiRef.current.column = params.columnApi;
-  };
+    apiRef.current.grid = params.api
+    apiRef.current.column = params.columnApi
+  }
 
   useEffect(() => {
-    fetchData().then((d) => setRowData(d));
+    fetchData().then((d) => setRowData(d))
     // fetchLargeData().then((d) => setRowData(d));
-  }, []);
+  }, [])
+
+  useEffect(() => {
+    if (selectedItem !== null) {
+      fetchDataSet(selectedItem).then((d) => setRowData(d))
+    }
+  }, [selectedItem])
 
   return (
     <div style={{ height: "80vh", minWidth: "800px" }}>
@@ -123,7 +133,7 @@ function Grid() {
         />
       </div>
     </div>
-  );
+  )
 }
 
-export default Grid;
+export default Grid
