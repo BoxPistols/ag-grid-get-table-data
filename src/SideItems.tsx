@@ -8,18 +8,24 @@ type SideItemsProps = {
   onItemClick: (data: any[] | null | string) => void // <- 変更
 }
 
+// SlideItemsコンポーネントを定義 (SideItemsPropsを引数に取る)
 const SideItems = ({ onItemClick }: SideItemsProps) => {
   return (
     <List>
+      {/* // ListItemコンポーネントを定義 */}
       <ListItem
         button
+        // ボタンがクリックされた時の処理を定義 (onItemClick)
         onClick={() =>
+          // onItemClickには、APIのURLを渡す
           onItemClick("https://jsonplaceholder.typicode.com/posts")
         }
       >
+        {/* // ListItemTextコンポーネントを定義 (primaryに表示するテキストを定義) */}
         <ListItemText primary="Get async API-Data" />
       </ListItem>
-      {/* You can add more ListItem components here for other URLs */}
+
+      {/* // ListItemコンポーネントを定義 (onItemClickには、ローカルデータを渡す)  */}
       <ListItem button onClick={() => onItemClick("localData")}>
         <ListItemText primary="Load Local-json" />
       </ListItem>
