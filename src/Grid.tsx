@@ -2,81 +2,20 @@ import React, { useRef, useEffect, useState } from "react"
 import { AgGridReact } from "ag-grid-react"
 import "ag-grid-community/styles/ag-grid.css"
 import "ag-grid-community/styles/ag-theme-alpine.css"
-import {
-  GridReadyEvent,
-  GridApi,
-  ColumnApi,
-  ColDef,
-  // IStatusPanelParams,
-} from "ag-grid-community"
-import { fetchData, Athlete, fetchDataSet } from "./api" // <- Add fetchDataSet here
-// import { fetchData, fetchLargeData, Athlete } from "./api";
+import { GridReadyEvent, GridApi, ColumnApi, ColDef } from "ag-grid-community"
+import { Athlete, fetchDataSet } from "./api"
 
 type GridProps = {
-  selectedItem: number | null
+  // selectedItem: string | null
+  selectedItem: any[] | null | string
+  onKeysUpdate: (keys: string[]) => void
 }
 
 const columnDefs: ColDef[] = [
-  {
-    headerName: "ID",
-    field: "id",
-    width: 70,
-    enableValue: true, // <- Add this
-  },
-  {
-    headerName: "Athlete",
-    field: "athlete",
-    width: 150,
-    editable: true,
-  },
-  {
-    headerName: "Age",
-    field: "age",
-    width: 90,
-    minWidth: 50,
-    maxWidth: 100,
-    editable: true,
-  },
-  {
-    headerName: "Country",
-    field: "country",
-    width: 120,
-  },
-  {
-    headerName: "Year",
-    field: "year",
-    width: 90,
-  },
-  {
-    headerName: "Date",
-    field: "date",
-    width: 110,
-  },
-  {
-    headerName: "Sport",
-    field: "sport",
-    width: 110,
-  },
-  {
-    headerName: "Gold",
-    field: "gold",
-    width: 100,
-  },
-  {
-    headerName: "Silver",
-    field: "silver",
-    width: 100,
-  },
-  {
-    headerName: "Bronze",
-    field: "bronze",
-    width: 100,
-  },
-  {
-    headerName: "Total",
-    field: "total",
-    width: 100,
-  },
+  { field: "id", headerName: "ID" },
+  { field: "userId", headerName: "User ID" },
+  { field: "title", headerName: "Title" },
+  { field: "body", headerName: "Body" },
 ]
 
 type AgGridApi = {
@@ -84,8 +23,39 @@ type AgGridApi = {
   column?: ColumnApi
 }
 
-function Grid({ selectedItem }: GridProps) {
-  const [rowData, setRowData] = useState<Athlete[]>([])
+function Grid({ selectedItem, onKeysUpdate }: GridProps) {
+  const [rowData, setRowData] = useState<any[] | null>(null)
+  // ↓動的カラム
+  const [dynamicColumnDefs, setDynamicColumnDefs] = useState<ColDef[]>([]) // <- 追加
+  const createDynamicColumnDefs = (keys: string[]): ColDef[] => {
+    return keys.map((key) => ({
+      field: key,
+      headerName: key.charAt(0).toUpperCase() + key.slice(1),
+    }))
+  }
+
+  useEffect(() => {
+    if (selectedItem) {
+      if (Array.isArray(selectedItem)) {
+        setRowData(selectedItem)
+        const keys = Object.keys(selectedItem[0] || {})
+        onKeysUpdate(keys)
+        const newColumnDefs = createDynamicColumnDefs(keys)
+        setDynamicColumnDefs(newColumnDefs)
+      } else {
+        // 以前のコード
+        fetchDataSet(selectedItem).then((d) => {
+          setRowData(d)
+          const keys = Object.keys(d[0] || {})
+          onKeysUpdate(keys)
+          const newColumnDefs = createDynamicColumnDefs(keys)
+          setDynamicColumnDefs(newColumnDefs)
+        })
+      }
+    }
+  }, [selectedItem, onKeysUpdate])
+  // ↑ 動的カラム
+
   const apiRef = useRef<AgGridApi>({
     grid: undefined,
     column: undefined,
@@ -95,19 +65,8 @@ function Grid({ selectedItem }: GridProps) {
     apiRef.current.column = params.columnApi
   }
 
-  useEffect(() => {
-    fetchData().then((d) => setRowData(d))
-    // fetchLargeData().then((d) => setRowData(d));
-  }, [])
-
-  useEffect(() => {
-    if (selectedItem !== null) {
-      fetchDataSet(selectedItem).then((d) => setRowData(d))
-    }
-  }, [selectedItem])
-
   return (
-    <div style={{ height: "80vh", minWidth: "800px" }}>
+    <div style={{ height: "80vh", minWidth: "calc(100vw - (180px + 80px))" }}>
       <div
         style={{ height: "100%", width: "100%" }}
         className="ag-theme-alpine"
@@ -115,7 +74,7 @@ function Grid({ selectedItem }: GridProps) {
         <AgGridReact
           rowSelection="multiple"
           suppressRowClickSelection
-          columnDefs={columnDefs}
+          columnDefs={dynamicColumnDefs} // <- 変更
           onGridReady={onGridReady}
           rowData={rowData}
           statusBar={{
