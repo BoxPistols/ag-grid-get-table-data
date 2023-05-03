@@ -39,48 +39,6 @@ export default function App() {
     setContentAreaHeight(ref.offsetHeight)
   }
 
-  // Draggable Icon Component for resize handle of Rnd component (react-rnd)
-  const DraggableIcon = () => {
-    return (
-      <Box
-        display="flex"
-        justifyContent="center"
-        alignItems="center"
-        sx={{
-          position: "absolute",
-          bottom: 0,
-          width: "100%",
-          height: "20px",
-          zIndex: 2,
-        }}
-        className="resize-handle"
-        onMouseEnter={() => setIsHovered(true)}
-        onMouseLeave={() => setIsHovered(false)}
-
-      >
-        {isHovered ? (
-          <Box
-            sx={{
-              position: "absolute",
-              top: 0,
-              bottom: 0,
-              left: 0,
-              right: 0,
-              border: "2px solid rgba(33, 150, 243, 0.5)",
-            }}
-          />
-        ) : null}
-        <DragHandleIcon
-          sx={{
-            position: "absolute",
-            top: "-12px",
-          }}
-          color={isHovered ? "primary" : "action"}
-        />
-      </Box>
-    )
-  }
-
   return (
     <>
       <CssBaseline />
@@ -108,8 +66,9 @@ export default function App() {
 
       <Box pt={0} p={2} border={"1px solid #eee"}>
         <Box display="flex" style={{ position: "relative" }}>
-          <DraggableIcon />
           <Rnd
+            dragHandleClassName="sideItems-drag-handle"
+            className="resize-handle"
             size={{ width: sideItemsWidth, height: "100%" }}
             onResize={handleResize}
             minWidth={120}
@@ -127,18 +86,30 @@ export default function App() {
               border: "1px solid #eee",
               zIndex: 1,
               boxSizing: "border-box",
+              // backgroundColor: isHovered ? "rgba(33, 150, 243, 0.5)" : "#ccc",
             }}
-            className="resize-handle"
             onMouseEnter={() => setIsHovered(true)}
             onMouseLeave={() => setIsHovered(false)}
           >
+            <Box
+              position="absolute"
+              top={0}
+              right={-1}
+              width="4px"
+              height="100%"
+              display="block"
+              sx={{
+                backgroundColor: isHovered
+                  ? "rgba(100, 100, 200, 0.3)"
+                  : "transparent",
+              }}
+            ></Box>
             <SideItems onItemClick={(data) => setSelectedItem(data)} />
             <Box
               position="absolute"
               top={40}
-              right={-8}
-              border="1px
-            solid #999"
+              right={-12}
+              border="1px solid #999"
               borderRadius={"50%"}
               width="40"
               height="40"
@@ -146,10 +117,7 @@ export default function App() {
               justifyContent="center"
               alignItems="center"
               sx={{
-                // backgroundColor: "#fff",
-                backgroundColor: isHovered
-                  ? "rgba(33, 150, 243, 0.5)"
-                  : "transparent",
+                backgroundColor: isHovered ? "#fcfcfc" : "#f9f9f9",
               }}
             >
               <svg
