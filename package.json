@@ -4,6 +4,7 @@
   "description": "",
   "keywords": [],
   "main": "src/index.tsx",
+  "license": "LICENSE_TYPE",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
@@ -14,6 +15,7 @@
     "ag-grid-react": "29.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
+    "react-rnd": "^10.4.1",
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
