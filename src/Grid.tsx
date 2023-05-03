@@ -78,7 +78,15 @@ function Grid({ selectedItem, onKeysUpdate }: GridProps) {
   }
 
   return (
-    <div style={{ height: "80vh", minWidth: "calc(100vw - (180px + 80px))" }}>
+    // <div style={{ minHeight: "60vh", minWidth: "calc(100vw - (180px + 80px))" }}>
+    <div
+      style={{
+        minHeight: "60vh",
+        minWidth: "calc(100vw - (480px))",
+        padding: "16px",
+        border: "1px solid #eee",
+      }}
+    >
       <div
         style={{ height: "100%", width: "100%" }}
         className="ag-theme-alpine"
