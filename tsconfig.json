@@ -1,7 +1,7 @@
 {
     "include": [
         "./src/*"
-    ],
+, "src/components/ColumnLists.tsx", "src/components/Grid.tsx", "src/components/SideItems.tsx"    ],
     "compilerOptions": {
         "strict": true,
         "esModuleInterop": true,

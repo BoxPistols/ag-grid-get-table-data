@@ -3,7 +3,7 @@ import { AgGridReact } from "ag-grid-react"
 import "ag-grid-community/styles/ag-grid.css"
 import "ag-grid-community/styles/ag-theme-alpine.css"
 import { GridReadyEvent, GridApi, ColumnApi, ColDef } from "ag-grid-community"
-import { fetchDataSet } from "./api"
+import { fetchDataSet } from "../api"
 
 /**
  * 型定義
