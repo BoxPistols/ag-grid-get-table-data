@@ -1,13 +1,18 @@
 {
   "name": "aggrid-example",
   "version": "1.0.0",
-  "description": "",
-  "keywords": [],
+  "description": "ag-table",
+  "keywords": [
+    "aggrid",
+    "react",
+    "typescript"
+  ],
   "main": "src/index.tsx",
-  "license": "LICENSE_TYPE",
+  "license": "MIT License",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
+    "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.11.16",
     "@mui/x-data-grid": "^6.0.4",
     "ag-grid-community": "29.2.0",
@@ -19,7 +24,7 @@
     "react-scripts": "5.0.1"
   },
   "devDependencies": {
-    "@types/react": "16.9.19",
+    "@types/react": "18",
     "@types/react-dom": "16.9.5",
     "typescript": "3.7.5"
   },
@@ -30,7 +35,7 @@
     "eject": "react-scripts eject"
   },
   "browserslist": [
-    ">0.2%",
+    ">0.1%",
     "not dead",
     "not ie <= 11",
     "not op_mini all"

@@ -1,5 +1,5 @@
 Arguments: 
-  /Users/ai/.volta/tools/image/node/18.15.0/bin/node /opt/homebrew/bin/yarn add @mui/icons-material
+  /Users/ai/.volta/tools/image/node/18.15.0/bin/node /opt/homebrew/bin/yarn add @types/react@ ^18.0.0
 
 PATH: 
   /Users/ai/.volta/tools/image/node/18.15.0/bin:/Users/ai/.krew/bin:/opt/homebrew/opt/asdf/libexec/bin:/Users/ai/.pyenv/shims:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/opt/homebrew/opt/libiconv/bin:/opt/homebrew/opt/libxslt/bin:/opt/homebrew/opt/openssl@1.1/bin:/opt/homebrew/sbin:/Users/ai/.rbenv/shims:/Users/ai/.rbenv/bin:/opt/homebrew/bin:/opt/homebrew/opt/imagemagick@6/bin:/Users/ai/.phpenv/shims:/Users/ai/.phpenv/bin:/Users/ai/.goenv/bin:/opt/homebrew/bin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/libiconv/bin:/Users/ai/.volta/bin:/opt/homebrew/opt/php@7.4/sbin:/opt/homebrew/opt/php@7.4/bin:/opt/homebrew/bin:/Users/ai/.local/share/zinit/polaris/bin:/opt/homebrew/opt/libiconv/bin:/opt/homebrew/opt/libxslt/bin:/opt/homebrew/opt/openssl@1.1/bin:/opt/homebrew/sbin:/Users/ai/.rbenv/shims:/Users/ai/.rbenv/bin:/opt/homebrew/bin:/opt/homebrew/opt/imagemagick@6/bin:/Users/ai/.phpenv/shims:/Users/ai/.phpenv/bin:/Users/ai/.goenv/shims:/Users/ai/.goenv/bin:/opt/homebrew/bin:/opt/homebrew/opt/gnu-getopt/bin:/opt/homebrew/opt/libiconv/bin:/Users/ai/.volta/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/go/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Users/ai/dev/Flutter/flutter/bin:/usr/sbin/:/Users/ai/dev/Flutter/flutter/bin:/usr/sbin/:/path/to/poetry/bin
@@ -14,26 +14,26 @@ Platform:
   darwin arm64
 
 Trace: 
-  Error: https://registry.yarnpkg.com/@babel/helper-module-transforms/-/helper-module-transforms-7.21.5.tgz: Request failed "522 undefined"
-      at ResponseError.ExtendableBuiltin (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:696:66)
-      at new ResponseError (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:802:124)
-      at Request.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:66215:16)
+  Error: https://registry.yarnpkg.com/%5E18.0.0: Not found
+      at params.callback [as _callback] (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:66145:18)
+      at self.callback (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:140890:22)
       at Request.emit (node:events:513:28)
-      at module.exports.Request.onRequestResponse (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141767:10)
-      at ClientRequest.emit (node:events:513:28)
-      at HTTPParser.parserOnIncomingClient (node:_http_client:701:27)
-      at HTTPParser.parserOnHeadersComplete (node:_http_common:119:17)
-      at TLSSocket.socketOnData (node:_http_client:542:22)
-      at TLSSocket.emit (node:events:513:28)
+      at Request.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141862:10)
+      at Request.emit (node:events:513:28)
+      at IncomingMessage.<anonymous> (/opt/homebrew/lib/node_modules/yarn/lib/cli.js:141784:12)
+      at Object.onceWrapper (node:events:627:28)
+      at IncomingMessage.emit (node:events:525:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
 
 npm manifest: 
   {
     "name": "aggrid-example",
     "version": "1.0.0",
-    "description": "",
-    "keywords": [],
+    "description": "ag-table",
+    "keywords": ["aggrid", "react", "typescript"],
     "main": "src/index.tsx",
-    "license": "LICENSE_TYPE",
+    "license": "MIT License",
     "dependencies": {
       "@emotion/react": "^11.10.6",
       "@emotion/styled": "^11.10.6",
@@ -59,7 +59,7 @@ npm manifest:
       "eject": "react-scripts eject"
     },
     "browserslist": [
-      ">0.2%",
+      ">0.1%",
       "not dead",
       "not ie <= 11",
       "not op_mini all"
