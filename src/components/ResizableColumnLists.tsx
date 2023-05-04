@@ -1,3 +1,4 @@
+// ResizableColumnLists.tsx
 import React from "react"
 import { Rnd } from "react-rnd"
 import ColumnLists from "./ColumnLists"
@@ -7,6 +8,7 @@ type ResizableColumnListsProps = {
   onResize: (e: any, direction: any, ref: { offsetWidth: any }) => void
   keyList: string[]
   hoverColor?: string
+  title?: string
 }
 
 const ResizableColumnLists: React.FC<ResizableColumnListsProps> = ({
@@ -14,6 +16,7 @@ const ResizableColumnLists: React.FC<ResizableColumnListsProps> = ({
   onResize,
   keyList,
   hoverColor = "rgba(100, 100, 200, 0.3)",
+  title,
 }) => {
   const [isHovered, setIsHovered] = React.useState(false)
 
@@ -51,7 +54,7 @@ const ResizableColumnLists: React.FC<ResizableColumnListsProps> = ({
           backgroundColor: isHovered ? hoverColor : "transparent",
         }}
       ></div>
-      <ColumnLists keyList={keyList} />
+      <ColumnLists keyList={keyList} title={title} />
     </Rnd>
   )
 }

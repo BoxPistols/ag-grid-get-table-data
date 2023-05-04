@@ -5,6 +5,7 @@ import { CssBaseline, Typography, Box } from "@mui/material"
 import ContentArea from "./components/ContentArea"
 import ResizableSideItems from "./components/ResizableSideItems"
 import ResizableColumnLists from "./components/ResizableColumnLists"
+import ColumnLists from "./components/ColumnLists"
 
 export default function App() {
   const [selectedItem, setSelectedItem] = useState<any[] | null | string>(null)
@@ -89,10 +90,13 @@ export default function App() {
                 <ResizableColumnLists
                   width={sideItemsWidth2}
                   onResize={handleResize2}
-                  keyList={[]}
+                  keyList={keyList}
+                  title="Table Column List" // title を渡す
                 />
+                {/* <ColumnLists keyList={keyList} /> */}
+
                 <Grid selectedItem={selectedItem} onKeysUpdate={setKeyList} />
-              </Box>
+              </Box>{" "}
             </Box>
           </Box>
         </Box>
