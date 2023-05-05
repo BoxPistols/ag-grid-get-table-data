@@ -47,9 +47,13 @@ export default function App() {
         variant="h5"
         align="center"
         sx={{
-          backgroundColor: "#3f51b5",
+          backgroundColor: "#3e71c5f3",
           color: "#fff",
           padding: "8px",
+          position: "sticky",
+          top: 0,
+          left: 0,
+          zIndex: 100,
         }}
       >
         AgGrid Get Data from API
