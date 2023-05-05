@@ -1,11 +1,11 @@
 import React, { useState } from "react"
 import "ag-grid-enterprise"
-import Grid from "./Grid"
-import { CssBaseline, Container, Typography, Box } from "@mui/material"
-import SideItems from "./SideItems"
-import ColumnLists from "./ColumnLists"
-import { Rnd } from "react-rnd"
-import DragHandleIcon from "@mui/icons-material/DragHandle"
+import Grid from "./components/Grid"
+import { CssBaseline, Typography, Box } from "@mui/material"
+import ContentArea from "./components/ContentArea"
+import ResizableSideItems from "./components/ResizableSideItems"
+import ResizableColumnLists from "./components/ResizableColumnLists"
+import ColumnLists from "./components/ColumnLists"
 
 export default function App() {
   const [selectedItem, setSelectedItem] = useState<any[] | null | string>(null)
@@ -47,9 +47,13 @@ export default function App() {
         variant="h5"
         align="center"
         sx={{
-          backgroundColor: "#3f51b5",
+          backgroundColor: "#3e71c5f3",
           color: "#fff",
           padding: "8px",
+          position: "sticky",
+          top: 0,
+          left: 0,
+          zIndex: 100,
         }}
       >
         AgGrid Get Data from API
@@ -66,141 +70,37 @@ export default function App() {
 
       <Box pt={0} p={2} border={"1px solid #eee"}>
         <Box display="flex" style={{ position: "relative" }}>
-          <Rnd
-            dragHandleClassName="sideItems-drag-handle"
-            className="resize-handle"
-            size={{ width: sideItemsWidth, height: "100%" }}
+          <ResizableSideItems
+            width={sideItemsWidth}
             onResize={handleResize}
-            minWidth={120}
-            maxWidth={280}
-            minHeight={"100%"}
-            maxHeight={"100%"}
-            enableResizing={{
-              top: false,
-              right: true,
-              bottom: false,
-              left: false,
-            }}
-            style={{
-              position: "absolute",
-              border: "1px solid #eee",
-              zIndex: 1,
-              boxSizing: "border-box",
-              // backgroundColor: isHovered ? "rgba(33, 150, 243, 0.5)" : "#ccc",
-            }}
-            onMouseEnter={() => setIsHovered(true)}
-            onMouseLeave={() => setIsHovered(false)}
-          >
-            <Box
-              position="absolute"
-              top={0}
-              right={-1}
-              width="4px"
-              height="100%"
-              display="block"
-              sx={{
-                backgroundColor: isHovered
-                  ? "rgba(100, 100, 200, 0.3)"
-                  : "transparent",
-              }}
-            ></Box>
-            <SideItems onItemClick={(data) => setSelectedItem(data)} />
-            <Box
-              position="absolute"
-              top={40}
-              right={-12}
-              border="1px solid #999"
-              borderRadius={"50%"}
-              width="40"
-              height="40"
-              display="flex"
-              justifyContent="center"
-              alignItems="center"
-              sx={{
-                backgroundColor: isHovered ? "#fcfcfc" : "#f9f9f9",
-              }}
-            >
-              <svg
-                width="24"
-                height="24"
-                viewBox="0 0 16 16"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M6.47125 4L5.53125 4.94L8.58458 8L5.53125 11.06L6.47125 12L10.4713 8L6.47125 4Z"
-                  fill="black"
-                  fillOpacity="0.56"
-                />
-              </svg>
-            </Box>
-          </Rnd>
+            onItemClick={(data) => setSelectedItem(data)}
+            isHovered={isHovered}
+            setIsHovered={setIsHovered}
+            hoverColor="rgba(100, 100, 200, 0.3)" // 薄いブルーに変更する場合
+          />
           <Box
             display="flex"
             flexDirection="column"
             style={{ marginLeft: sideItemsWidth }}
           >
-            {/* // contentArea */}
+            {/* ContentArea */}
             <Box style={{ padding: "8px" }}>
-              <Rnd
-                size={{ width: "100%", height: contentAreaHeight }}
+              <ContentArea
+                height={contentAreaHeight}
                 onResize={handleContentAreaResize}
-                minHeight={100}
-                maxHeight={280}
-                enableResizing={{
-                  top: false,
-                  right: false,
-                  bottom: true,
-                  left: true,
-                }}
-                style={{
-                  position: "relative",
-                  backgroundColor: "#eee",
-                  padding: "24px",
-                  boxSizing: "border-box",
-                }}
-                dragHandleClassName="resize-handle"
-              >
-                ContentArea
-              </Rnd>
-
-              <Typography
-                variant="h6"
-                border={"1px solid #eee"}
-                sx={{
-                  padding: "4px 8px",
-                  marginBottom: "2px",
-                }}
-              >
-                Table Title
-              </Typography>
-
+              />
+              {/* 省略: 以前の <Typography /> コンポーネント */}
               <Box display="flex">
-                <Rnd
-                  size={{ width: sideItemsWidth2, height: "100%" }}
+                <ResizableColumnLists
+                  width={sideItemsWidth2}
                   onResize={handleResize2}
-                  minWidth={120}
-                  maxWidth={320}
-                  minHeight={"100%"}
-                  maxHeight={"100%"}
-                  enableResizing={{
-                    top: false,
-                    right: true,
-                    bottom: false,
-                    left: false,
-                  }}
-                  style={{
-                    position: "relative",
-                    border: "1px solid #eee",
-                    zIndex: 1,
-                    boxSizing: "border-box",
-                  }}
-                  dragHandleClassName="resize-handle"
-                >
-                  <ColumnLists keyList={keyList} />
-                </Rnd>
+                  keyList={keyList}
+                  title="Table Column List" // title を渡す
+                />
+                {/* <ColumnLists keyList={keyList} /> */}
+
                 <Grid selectedItem={selectedItem} onKeysUpdate={setKeyList} />
-              </Box>
+              </Box>{" "}
             </Box>
           </Box>
         </Box>

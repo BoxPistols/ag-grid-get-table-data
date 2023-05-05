@@ -1,14 +1,65 @@
 [
   {
     "id": 1,
-    "athlete": "John Smith"
+    "campaign_name": "Summer Sale 2023",
+    "start_date": "2023-06-01",
+    "end_date": "2023-06-30",
+    "budget": 50000,
+    "channel": "Facebook",
+    "impressions": 500000,
+    "clicks": 5000,
+    "conversions": 250,
+    "cost_per_impression": 0.1,
+    "cost_per_click": 10,
+    "cost_per_conversion": 200,
+    "roas": 0.5,
+    "ctr": 1,
+    "conversion_rate": 0.05,
+    "reach": 1000000,
+    "engagement_rate": 0.05,
+    "click_through_rate": 0.01,
+    "landing_page_views": 10000
   },
   {
     "id": 2,
-    "athlete": "Jane Doe"
+    "campaign_name": "New Product Launch",
+    "start_date": "2022-09-01",
+    "end_date": "2022-09-30",
+    "budget": 30000,
+    "channel": "Google Ads",
+    "impressions": 200000,
+    "clicks": 2500,
+    "conversions": 150,
+    "cost_per_impression": 0.15,
+    "cost_per_click": 12,
+    "cost_per_conversion": 200,
+    "roas": 0.75,
+    "ctr": 1.25,
+    "conversion_rate": 0.06,
+    "reach": 500000,
+    "engagement_rate": 0.03,
+    "click_through_rate": 0.0125,
+    "landing_page_views": 7500
   },
   {
     "id": 3,
-    "athlete": "Michael Brown"
+    "campaign_name": "New Product Launch",
+    "start_date": "2022-09-01",
+    "end_date": "2022-09-30",
+    "budget": 30000,
+    "channel": "Google Ads",
+    "impressions": 200000,
+    "clicks": 2500,
+    "conversions": 150,
+    "cost_per_impression": 0.15,
+    "cost_per_click": 12,
+    "cost_per_conversion": 200,
+    "roas": 0.75,
+    "ctr": 1.25,
+    "conversion_rate": 0.06,
+    "reach": 500000,
+    "engagement_rate": 0.03,
+    "click_through_rate": 0.0125,
+    "landing_page_views": 7500
   }
 ]
