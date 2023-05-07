@@ -1,5 +1,9 @@
 {
   "editor.lineNumbers": "on",
   "workbench.editor.centeredLayoutFixedWidth": false,
-  "prettier.printWidth": 120
+  "prettier.printWidth": 120,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.autopep8"
+  },
+  "python.formatting.provider": "none"
 }
