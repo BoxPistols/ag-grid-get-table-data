@@ -1,0 +1,5 @@
+{
+  "editor.lineNumbers": "on",
+  "workbench.editor.centeredLayoutFixedWidth": false,
+  "prettier.printWidth": 120
+}

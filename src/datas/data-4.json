@@ -1,14 +1,4402 @@
 [
   {
-    "id": 10,
-    "athlete": "James Rodriguez"
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "12669",
+    "Milk": "9656",
+    "Grocery": "7561",
+    "Frozen": "214",
+    "Detergents_Paper": "2674",
+    "Delicassen": "1338"
   },
   {
-    "id": 11,
-    "athlete": "Benjamin Lee"
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "7057",
+    "Milk": "9810",
+    "Grocery": "9568",
+    "Frozen": "1762",
+    "Detergents_Paper": "3293",
+    "Delicassen": "1776"
   },
   {
-    "id": 12,
-    "athlete": "Lucas Walker"
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "6353",
+    "Milk": "8808",
+    "Grocery": "7684",
+    "Frozen": "2405",
+    "Detergents_Paper": "3516",
+    "Delicassen": "7844"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "13265",
+    "Milk": "1196",
+    "Grocery": "4221",
+    "Frozen": "6404",
+    "Detergents_Paper": "507",
+    "Delicassen": "1788"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "22615",
+    "Milk": "5410",
+    "Grocery": "7198",
+    "Frozen": "3915",
+    "Detergents_Paper": "1777",
+    "Delicassen": "5185"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "9413",
+    "Milk": "8259",
+    "Grocery": "5126",
+    "Frozen": "666",
+    "Detergents_Paper": "1795",
+    "Delicassen": "1451"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "12126",
+    "Milk": "3199",
+    "Grocery": "6975",
+    "Frozen": "480",
+    "Detergents_Paper": "3140",
+    "Delicassen": "545"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "7579",
+    "Milk": "4956",
+    "Grocery": "9426",
+    "Frozen": "1669",
+    "Detergents_Paper": "3321",
+    "Delicassen": "2566"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5963",
+    "Milk": "3648",
+    "Grocery": "6192",
+    "Frozen": "425",
+    "Detergents_Paper": "1716",
+    "Delicassen": "750"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "6006",
+    "Milk": "11093",
+    "Grocery": "18881",
+    "Frozen": "1159",
+    "Detergents_Paper": "7425",
+    "Delicassen": "2098"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "3366",
+    "Milk": "5403",
+    "Grocery": "12974",
+    "Frozen": "4400",
+    "Detergents_Paper": "5977",
+    "Delicassen": "1744"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "13146",
+    "Milk": "1124",
+    "Grocery": "4523",
+    "Frozen": "1420",
+    "Detergents_Paper": "549",
+    "Delicassen": "497"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "31714",
+    "Milk": "12319",
+    "Grocery": "11757",
+    "Frozen": "287",
+    "Detergents_Paper": "3881",
+    "Delicassen": "2931"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "21217",
+    "Milk": "6208",
+    "Grocery": "14982",
+    "Frozen": "3095",
+    "Detergents_Paper": "6707",
+    "Delicassen": "602"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "24653",
+    "Milk": "9465",
+    "Grocery": "12091",
+    "Frozen": "294",
+    "Detergents_Paper": "5058",
+    "Delicassen": "2168"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "10253",
+    "Milk": "1114",
+    "Grocery": "3821",
+    "Frozen": "397",
+    "Detergents_Paper": "964",
+    "Delicassen": "412"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1020",
+    "Milk": "8816",
+    "Grocery": "12121",
+    "Frozen": "134",
+    "Detergents_Paper": "4508",
+    "Delicassen": "1080"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5876",
+    "Milk": "6157",
+    "Grocery": "2933",
+    "Frozen": "839",
+    "Detergents_Paper": "370",
+    "Delicassen": "4478"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "18601",
+    "Milk": "6327",
+    "Grocery": "10099",
+    "Frozen": "2205",
+    "Detergents_Paper": "2767",
+    "Delicassen": "3181"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "7780",
+    "Milk": "2495",
+    "Grocery": "9464",
+    "Frozen": "669",
+    "Detergents_Paper": "2518",
+    "Delicassen": "501"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "17546",
+    "Milk": "4519",
+    "Grocery": "4602",
+    "Frozen": "1066",
+    "Detergents_Paper": "2259",
+    "Delicassen": "2124"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5567",
+    "Milk": "871",
+    "Grocery": "2010",
+    "Frozen": "3383",
+    "Detergents_Paper": "375",
+    "Delicassen": "569"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "31276",
+    "Milk": "1917",
+    "Grocery": "4469",
+    "Frozen": "9408",
+    "Detergents_Paper": "2381",
+    "Delicassen": "4334"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "26373",
+    "Milk": "36423",
+    "Grocery": "22019",
+    "Frozen": "5154",
+    "Detergents_Paper": "4337",
+    "Delicassen": "16523"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "22647",
+    "Milk": "9776",
+    "Grocery": "13792",
+    "Frozen": "2915",
+    "Detergents_Paper": "4482",
+    "Delicassen": "5778"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "16165",
+    "Milk": "4230",
+    "Grocery": "7595",
+    "Frozen": "201",
+    "Detergents_Paper": "4003",
+    "Delicassen": "57"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9898",
+    "Milk": "961",
+    "Grocery": "2861",
+    "Frozen": "3151",
+    "Detergents_Paper": "242",
+    "Delicassen": "833"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "14276",
+    "Milk": "803",
+    "Grocery": "3045",
+    "Frozen": "485",
+    "Detergents_Paper": "100",
+    "Delicassen": "518"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4113",
+    "Milk": "20484",
+    "Grocery": "25957",
+    "Frozen": "1158",
+    "Detergents_Paper": "8604",
+    "Delicassen": "5206"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "43088",
+    "Milk": "2100",
+    "Grocery": "2609",
+    "Frozen": "1200",
+    "Detergents_Paper": "1107",
+    "Delicassen": "823"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "18815",
+    "Milk": "3610",
+    "Grocery": "11107",
+    "Frozen": "1148",
+    "Detergents_Paper": "2134",
+    "Delicassen": "2963"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2612",
+    "Milk": "4339",
+    "Grocery": "3133",
+    "Frozen": "2088",
+    "Detergents_Paper": "820",
+    "Delicassen": "985"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "21632",
+    "Milk": "1318",
+    "Grocery": "2886",
+    "Frozen": "266",
+    "Detergents_Paper": "918",
+    "Delicassen": "405"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "29729",
+    "Milk": "4786",
+    "Grocery": "7326",
+    "Frozen": "6130",
+    "Detergents_Paper": "361",
+    "Delicassen": "1083"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "1502",
+    "Milk": "1979",
+    "Grocery": "2262",
+    "Frozen": "425",
+    "Detergents_Paper": "483",
+    "Delicassen": "395"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "688",
+    "Milk": "5491",
+    "Grocery": "11091",
+    "Frozen": "833",
+    "Detergents_Paper": "4239",
+    "Delicassen": "436"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "29955",
+    "Milk": "4362",
+    "Grocery": "5428",
+    "Frozen": "1729",
+    "Detergents_Paper": "862",
+    "Delicassen": "4626"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "15168",
+    "Milk": "10556",
+    "Grocery": "12477",
+    "Frozen": "1920",
+    "Detergents_Paper": "6506",
+    "Delicassen": "714"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4591",
+    "Milk": "15729",
+    "Grocery": "16709",
+    "Frozen": "33",
+    "Detergents_Paper": "6956",
+    "Delicassen": "433"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "56159",
+    "Milk": "555",
+    "Grocery": "902",
+    "Frozen": "10002",
+    "Detergents_Paper": "212",
+    "Delicassen": "2916"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "24025",
+    "Milk": "4332",
+    "Grocery": "4757",
+    "Frozen": "9510",
+    "Detergents_Paper": "1145",
+    "Delicassen": "5864"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "19176",
+    "Milk": "3065",
+    "Grocery": "5956",
+    "Frozen": "2033",
+    "Detergents_Paper": "2575",
+    "Delicassen": "2802"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "10850",
+    "Milk": "7555",
+    "Grocery": "14961",
+    "Frozen": "188",
+    "Detergents_Paper": "6899",
+    "Delicassen": "46"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "630",
+    "Milk": "11095",
+    "Grocery": "23998",
+    "Frozen": "787",
+    "Detergents_Paper": "9529",
+    "Delicassen": "72"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "9670",
+    "Milk": "7027",
+    "Grocery": "10471",
+    "Frozen": "541",
+    "Detergents_Paper": "4618",
+    "Delicassen": "65"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "5181",
+    "Milk": "22044",
+    "Grocery": "21531",
+    "Frozen": "1740",
+    "Detergents_Paper": "7353",
+    "Delicassen": "4985"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "3103",
+    "Milk": "14069",
+    "Grocery": "21955",
+    "Frozen": "1668",
+    "Detergents_Paper": "6792",
+    "Delicassen": "1452"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "44466",
+    "Milk": "54259",
+    "Grocery": "55571",
+    "Frozen": "7782",
+    "Detergents_Paper": "24171",
+    "Delicassen": "6465"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "11519",
+    "Milk": "6152",
+    "Grocery": "10868",
+    "Frozen": "584",
+    "Detergents_Paper": "5121",
+    "Delicassen": "1476"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4967",
+    "Milk": "21412",
+    "Grocery": "28921",
+    "Frozen": "1798",
+    "Detergents_Paper": "13583",
+    "Delicassen": "1163"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6269",
+    "Milk": "1095",
+    "Grocery": "1980",
+    "Frozen": "3860",
+    "Detergents_Paper": "609",
+    "Delicassen": "2162"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3347",
+    "Milk": "4051",
+    "Grocery": "6996",
+    "Frozen": "239",
+    "Detergents_Paper": "1538",
+    "Delicassen": "301"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "40721",
+    "Milk": "3916",
+    "Grocery": "5876",
+    "Frozen": "532",
+    "Detergents_Paper": "2587",
+    "Delicassen": "1278"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "491",
+    "Milk": "10473",
+    "Grocery": "11532",
+    "Frozen": "744",
+    "Detergents_Paper": "5611",
+    "Delicassen": "224"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "27329",
+    "Milk": "1449",
+    "Grocery": "1947",
+    "Frozen": "2436",
+    "Detergents_Paper": "204",
+    "Delicassen": "1333"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5264",
+    "Milk": "3683",
+    "Grocery": "5005",
+    "Frozen": "1057",
+    "Detergents_Paper": "2024",
+    "Delicassen": "1130"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4098",
+    "Milk": "29892",
+    "Grocery": "26866",
+    "Frozen": "2616",
+    "Detergents_Paper": "17740",
+    "Delicassen": "1340"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "5417",
+    "Milk": "9933",
+    "Grocery": "10487",
+    "Frozen": "38",
+    "Detergents_Paper": "7572",
+    "Delicassen": "1282"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "13779",
+    "Milk": "1970",
+    "Grocery": "1648",
+    "Frozen": "596",
+    "Detergents_Paper": "227",
+    "Delicassen": "436"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6137",
+    "Milk": "5360",
+    "Grocery": "8040",
+    "Frozen": "129",
+    "Detergents_Paper": "3084",
+    "Delicassen": "1603"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "8590",
+    "Milk": "3045",
+    "Grocery": "7854",
+    "Frozen": "96",
+    "Detergents_Paper": "4095",
+    "Delicassen": "225"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "35942",
+    "Milk": "38369",
+    "Grocery": "59598",
+    "Frozen": "3254",
+    "Detergents_Paper": "26701",
+    "Delicassen": "2017"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "7823",
+    "Milk": "6245",
+    "Grocery": "6544",
+    "Frozen": "4154",
+    "Detergents_Paper": "4074",
+    "Delicassen": "964"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "9396",
+    "Milk": "11601",
+    "Grocery": "15775",
+    "Frozen": "2896",
+    "Detergents_Paper": "7677",
+    "Delicassen": "1295"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4760",
+    "Milk": "1227",
+    "Grocery": "3250",
+    "Frozen": "3724",
+    "Detergents_Paper": "1247",
+    "Delicassen": "1145"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "85",
+    "Milk": "20959",
+    "Grocery": "45828",
+    "Frozen": "36",
+    "Detergents_Paper": "24231",
+    "Delicassen": "1423"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9",
+    "Milk": "1534",
+    "Grocery": "7417",
+    "Frozen": "175",
+    "Detergents_Paper": "3468",
+    "Delicassen": "27"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "19913",
+    "Milk": "6759",
+    "Grocery": "13462",
+    "Frozen": "1256",
+    "Detergents_Paper": "5141",
+    "Delicassen": "834"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2446",
+    "Milk": "7260",
+    "Grocery": "3993",
+    "Frozen": "5870",
+    "Detergents_Paper": "788",
+    "Delicassen": "3095"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "8352",
+    "Milk": "2820",
+    "Grocery": "1293",
+    "Frozen": "779",
+    "Detergents_Paper": "656",
+    "Delicassen": "144"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "16705",
+    "Milk": "2037",
+    "Grocery": "3202",
+    "Frozen": "10643",
+    "Detergents_Paper": "116",
+    "Delicassen": "1365"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "18291",
+    "Milk": "1266",
+    "Grocery": "21042",
+    "Frozen": "5373",
+    "Detergents_Paper": "4173",
+    "Delicassen": "14472"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4420",
+    "Milk": "5139",
+    "Grocery": "2661",
+    "Frozen": "8872",
+    "Detergents_Paper": "1321",
+    "Delicassen": "181"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "19899",
+    "Milk": "5332",
+    "Grocery": "8713",
+    "Frozen": "8132",
+    "Detergents_Paper": "764",
+    "Delicassen": "648"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "8190",
+    "Milk": "6343",
+    "Grocery": "9794",
+    "Frozen": "1285",
+    "Detergents_Paper": "1901",
+    "Delicassen": "1780"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "20398",
+    "Milk": "1137",
+    "Grocery": "3",
+    "Frozen": "4407",
+    "Detergents_Paper": "3",
+    "Delicassen": "975"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "717",
+    "Milk": "3587",
+    "Grocery": "6532",
+    "Frozen": "7530",
+    "Detergents_Paper": "529",
+    "Delicassen": "894"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "12205",
+    "Milk": "12697",
+    "Grocery": "28540",
+    "Frozen": "869",
+    "Detergents_Paper": "12034",
+    "Delicassen": "1009"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "10766",
+    "Milk": "1175",
+    "Grocery": "2067",
+    "Frozen": "2096",
+    "Detergents_Paper": "301",
+    "Delicassen": "167"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "1640",
+    "Milk": "3259",
+    "Grocery": "3655",
+    "Frozen": "868",
+    "Detergents_Paper": "1202",
+    "Delicassen": "1653"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "7005",
+    "Milk": "829",
+    "Grocery": "3009",
+    "Frozen": "430",
+    "Detergents_Paper": "610",
+    "Delicassen": "529"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "219",
+    "Milk": "9540",
+    "Grocery": "14403",
+    "Frozen": "283",
+    "Detergents_Paper": "7818",
+    "Delicassen": "156"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "10362",
+    "Milk": "9232",
+    "Grocery": "11009",
+    "Frozen": "737",
+    "Detergents_Paper": "3537",
+    "Delicassen": "2342"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "20874",
+    "Milk": "1563",
+    "Grocery": "1783",
+    "Frozen": "2320",
+    "Detergents_Paper": "550",
+    "Delicassen": "772"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "11867",
+    "Milk": "3327",
+    "Grocery": "4814",
+    "Frozen": "1178",
+    "Detergents_Paper": "3837",
+    "Delicassen": "120"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "16117",
+    "Milk": "46197",
+    "Grocery": "92780",
+    "Frozen": "1026",
+    "Detergents_Paper": "40827",
+    "Delicassen": "2944"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "22925",
+    "Milk": "73498",
+    "Grocery": "32114",
+    "Frozen": "987",
+    "Detergents_Paper": "20070",
+    "Delicassen": "903"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "43265",
+    "Milk": "5025",
+    "Grocery": "8117",
+    "Frozen": "6312",
+    "Detergents_Paper": "1579",
+    "Delicassen": "14351"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "7864",
+    "Milk": "542",
+    "Grocery": "4042",
+    "Frozen": "9735",
+    "Detergents_Paper": "165",
+    "Delicassen": "46"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "24904",
+    "Milk": "3836",
+    "Grocery": "5330",
+    "Frozen": "3443",
+    "Detergents_Paper": "454",
+    "Delicassen": "3178"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11405",
+    "Milk": "596",
+    "Grocery": "1638",
+    "Frozen": "3347",
+    "Detergents_Paper": "69",
+    "Delicassen": "360"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "12754",
+    "Milk": "2762",
+    "Grocery": "2530",
+    "Frozen": "8693",
+    "Detergents_Paper": "627",
+    "Delicassen": "1117"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "9198",
+    "Milk": "27472",
+    "Grocery": "32034",
+    "Frozen": "3232",
+    "Detergents_Paper": "18906",
+    "Delicassen": "5130"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11314",
+    "Milk": "3090",
+    "Grocery": "2062",
+    "Frozen": "35009",
+    "Detergents_Paper": "71",
+    "Delicassen": "2698"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "5626",
+    "Milk": "12220",
+    "Grocery": "11323",
+    "Frozen": "206",
+    "Detergents_Paper": "5038",
+    "Delicassen": "244"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3",
+    "Milk": "2920",
+    "Grocery": "6252",
+    "Frozen": "440",
+    "Detergents_Paper": "223",
+    "Delicassen": "709"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "23",
+    "Milk": "2616",
+    "Grocery": "8118",
+    "Frozen": "145",
+    "Detergents_Paper": "3874",
+    "Delicassen": "217"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "403",
+    "Milk": "254",
+    "Grocery": "610",
+    "Frozen": "774",
+    "Detergents_Paper": "54",
+    "Delicassen": "63"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "503",
+    "Milk": "112",
+    "Grocery": "778",
+    "Frozen": "895",
+    "Detergents_Paper": "56",
+    "Delicassen": "132"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9658",
+    "Milk": "2182",
+    "Grocery": "1909",
+    "Frozen": "5639",
+    "Detergents_Paper": "215",
+    "Delicassen": "323"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "11594",
+    "Milk": "7779",
+    "Grocery": "12144",
+    "Frozen": "3252",
+    "Detergents_Paper": "8035",
+    "Delicassen": "3029"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1420",
+    "Milk": "10810",
+    "Grocery": "16267",
+    "Frozen": "1593",
+    "Detergents_Paper": "6766",
+    "Delicassen": "1838"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "2932",
+    "Milk": "6459",
+    "Grocery": "7677",
+    "Frozen": "2561",
+    "Detergents_Paper": "4573",
+    "Delicassen": "1386"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "56082",
+    "Milk": "3504",
+    "Grocery": "8906",
+    "Frozen": "18028",
+    "Detergents_Paper": "1480",
+    "Delicassen": "2498"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "14100",
+    "Milk": "2132",
+    "Grocery": "3445",
+    "Frozen": "1336",
+    "Detergents_Paper": "1491",
+    "Delicassen": "548"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "15587",
+    "Milk": "1014",
+    "Grocery": "3970",
+    "Frozen": "910",
+    "Detergents_Paper": "139",
+    "Delicassen": "1378"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1454",
+    "Milk": "6337",
+    "Grocery": "10704",
+    "Frozen": "133",
+    "Detergents_Paper": "6830",
+    "Delicassen": "1831"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "8797",
+    "Milk": "10646",
+    "Grocery": "14886",
+    "Frozen": "2471",
+    "Detergents_Paper": "8969",
+    "Delicassen": "1438"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1531",
+    "Milk": "8397",
+    "Grocery": "6981",
+    "Frozen": "247",
+    "Detergents_Paper": "2505",
+    "Delicassen": "1236"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1406",
+    "Milk": "16729",
+    "Grocery": "28986",
+    "Frozen": "673",
+    "Detergents_Paper": "836",
+    "Delicassen": "3"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11818",
+    "Milk": "1648",
+    "Grocery": "1694",
+    "Frozen": "2276",
+    "Detergents_Paper": "169",
+    "Delicassen": "1647"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "12579",
+    "Milk": "11114",
+    "Grocery": "17569",
+    "Frozen": "805",
+    "Detergents_Paper": "6457",
+    "Delicassen": "1519"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "19046",
+    "Milk": "2770",
+    "Grocery": "2469",
+    "Frozen": "8853",
+    "Detergents_Paper": "483",
+    "Delicassen": "2708"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "14438",
+    "Milk": "2295",
+    "Grocery": "1733",
+    "Frozen": "3220",
+    "Detergents_Paper": "585",
+    "Delicassen": "1561"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "18044",
+    "Milk": "1080",
+    "Grocery": "2000",
+    "Frozen": "2555",
+    "Detergents_Paper": "118",
+    "Delicassen": "1266"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11134",
+    "Milk": "793",
+    "Grocery": "2988",
+    "Frozen": "2715",
+    "Detergents_Paper": "276",
+    "Delicassen": "610"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11173",
+    "Milk": "2521",
+    "Grocery": "3355",
+    "Frozen": "1517",
+    "Detergents_Paper": "310",
+    "Delicassen": "222"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6990",
+    "Milk": "3880",
+    "Grocery": "5380",
+    "Frozen": "1647",
+    "Detergents_Paper": "319",
+    "Delicassen": "1160"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "20049",
+    "Milk": "1891",
+    "Grocery": "2362",
+    "Frozen": "5343",
+    "Detergents_Paper": "411",
+    "Delicassen": "933"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "8258",
+    "Milk": "2344",
+    "Grocery": "2147",
+    "Frozen": "3896",
+    "Detergents_Paper": "266",
+    "Delicassen": "635"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "17160",
+    "Milk": "1200",
+    "Grocery": "3412",
+    "Frozen": "2417",
+    "Detergents_Paper": "174",
+    "Delicassen": "1136"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4020",
+    "Milk": "3234",
+    "Grocery": "1498",
+    "Frozen": "2395",
+    "Detergents_Paper": "264",
+    "Delicassen": "255"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "12212",
+    "Milk": "201",
+    "Grocery": "245",
+    "Frozen": "1991",
+    "Detergents_Paper": "25",
+    "Delicassen": "860"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "11170",
+    "Milk": "10769",
+    "Grocery": "8814",
+    "Frozen": "2194",
+    "Detergents_Paper": "1976",
+    "Delicassen": "143"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "36050",
+    "Milk": "1642",
+    "Grocery": "2961",
+    "Frozen": "4787",
+    "Detergents_Paper": "500",
+    "Delicassen": "1621"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "76237",
+    "Milk": "3473",
+    "Grocery": "7102",
+    "Frozen": "16538",
+    "Detergents_Paper": "778",
+    "Delicassen": "918"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "19219",
+    "Milk": "1840",
+    "Grocery": "1658",
+    "Frozen": "8195",
+    "Detergents_Paper": "349",
+    "Delicassen": "483"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "21465",
+    "Milk": "7243",
+    "Grocery": "10685",
+    "Frozen": "880",
+    "Detergents_Paper": "2386",
+    "Delicassen": "2749"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "140",
+    "Milk": "8847",
+    "Grocery": "3823",
+    "Frozen": "142",
+    "Detergents_Paper": "1062",
+    "Delicassen": "3"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "42312",
+    "Milk": "926",
+    "Grocery": "1510",
+    "Frozen": "1718",
+    "Detergents_Paper": "410",
+    "Delicassen": "1819"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "7149",
+    "Milk": "2428",
+    "Grocery": "699",
+    "Frozen": "6316",
+    "Detergents_Paper": "395",
+    "Delicassen": "911"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2101",
+    "Milk": "589",
+    "Grocery": "314",
+    "Frozen": "346",
+    "Detergents_Paper": "70",
+    "Delicassen": "310"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "14903",
+    "Milk": "2032",
+    "Grocery": "2479",
+    "Frozen": "576",
+    "Detergents_Paper": "955",
+    "Delicassen": "328"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9434",
+    "Milk": "1042",
+    "Grocery": "1235",
+    "Frozen": "436",
+    "Detergents_Paper": "256",
+    "Delicassen": "396"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "7388",
+    "Milk": "1882",
+    "Grocery": "2174",
+    "Frozen": "720",
+    "Detergents_Paper": "47",
+    "Delicassen": "537"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6300",
+    "Milk": "1289",
+    "Grocery": "2591",
+    "Frozen": "1170",
+    "Detergents_Paper": "199",
+    "Delicassen": "326"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4625",
+    "Milk": "8579",
+    "Grocery": "7030",
+    "Frozen": "4575",
+    "Detergents_Paper": "2447",
+    "Delicassen": "1542"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3087",
+    "Milk": "8080",
+    "Grocery": "8282",
+    "Frozen": "661",
+    "Detergents_Paper": "721",
+    "Delicassen": "36"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "13537",
+    "Milk": "4257",
+    "Grocery": "5034",
+    "Frozen": "155",
+    "Detergents_Paper": "249",
+    "Delicassen": "3271"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5387",
+    "Milk": "4979",
+    "Grocery": "3343",
+    "Frozen": "825",
+    "Detergents_Paper": "637",
+    "Delicassen": "929"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "17623",
+    "Milk": "4280",
+    "Grocery": "7305",
+    "Frozen": "2279",
+    "Detergents_Paper": "960",
+    "Delicassen": "2616"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "30379",
+    "Milk": "13252",
+    "Grocery": "5189",
+    "Frozen": "321",
+    "Detergents_Paper": "51",
+    "Delicassen": "1450"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "37036",
+    "Milk": "7152",
+    "Grocery": "8253",
+    "Frozen": "2995",
+    "Detergents_Paper": "20",
+    "Delicassen": "3"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "10405",
+    "Milk": "1596",
+    "Grocery": "1096",
+    "Frozen": "8425",
+    "Detergents_Paper": "399",
+    "Delicassen": "318"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "18827",
+    "Milk": "3677",
+    "Grocery": "1988",
+    "Frozen": "118",
+    "Detergents_Paper": "516",
+    "Delicassen": "201"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "22039",
+    "Milk": "8384",
+    "Grocery": "34792",
+    "Frozen": "42",
+    "Detergents_Paper": "12591",
+    "Delicassen": "4430"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "7769",
+    "Milk": "1936",
+    "Grocery": "2177",
+    "Frozen": "926",
+    "Detergents_Paper": "73",
+    "Delicassen": "520"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9203",
+    "Milk": "3373",
+    "Grocery": "2707",
+    "Frozen": "1286",
+    "Detergents_Paper": "1082",
+    "Delicassen": "526"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5924",
+    "Milk": "584",
+    "Grocery": "542",
+    "Frozen": "4052",
+    "Detergents_Paper": "283",
+    "Delicassen": "434"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "31812",
+    "Milk": "1433",
+    "Grocery": "1651",
+    "Frozen": "800",
+    "Detergents_Paper": "113",
+    "Delicassen": "1440"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "16225",
+    "Milk": "1825",
+    "Grocery": "1765",
+    "Frozen": "853",
+    "Detergents_Paper": "170",
+    "Delicassen": "1067"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "1289",
+    "Milk": "3328",
+    "Grocery": "2022",
+    "Frozen": "531",
+    "Detergents_Paper": "255",
+    "Delicassen": "1774"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "18840",
+    "Milk": "1371",
+    "Grocery": "3135",
+    "Frozen": "3001",
+    "Detergents_Paper": "352",
+    "Delicassen": "184"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3463",
+    "Milk": "9250",
+    "Grocery": "2368",
+    "Frozen": "779",
+    "Detergents_Paper": "302",
+    "Delicassen": "1627"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "622",
+    "Milk": "55",
+    "Grocery": "137",
+    "Frozen": "75",
+    "Detergents_Paper": "7",
+    "Delicassen": "8"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1989",
+    "Milk": "10690",
+    "Grocery": "19460",
+    "Frozen": "233",
+    "Detergents_Paper": "11577",
+    "Delicassen": "2153"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "3830",
+    "Milk": "5291",
+    "Grocery": "14855",
+    "Frozen": "317",
+    "Detergents_Paper": "6694",
+    "Delicassen": "3182"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "17773",
+    "Milk": "1366",
+    "Grocery": "2474",
+    "Frozen": "3378",
+    "Detergents_Paper": "811",
+    "Delicassen": "418"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "2861",
+    "Milk": "6570",
+    "Grocery": "9618",
+    "Frozen": "930",
+    "Detergents_Paper": "4004",
+    "Delicassen": "1682"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "355",
+    "Milk": "7704",
+    "Grocery": "14682",
+    "Frozen": "398",
+    "Detergents_Paper": "8077",
+    "Delicassen": "303"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1725",
+    "Milk": "3651",
+    "Grocery": "12822",
+    "Frozen": "824",
+    "Detergents_Paper": "4424",
+    "Delicassen": "2157"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "12434",
+    "Milk": "540",
+    "Grocery": "283",
+    "Frozen": "1092",
+    "Detergents_Paper": "3",
+    "Delicassen": "2233"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "15177",
+    "Milk": "2024",
+    "Grocery": "3810",
+    "Frozen": "2665",
+    "Detergents_Paper": "232",
+    "Delicassen": "610"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "5531",
+    "Milk": "15726",
+    "Grocery": "26870",
+    "Frozen": "2367",
+    "Detergents_Paper": "13726",
+    "Delicassen": "446"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "5224",
+    "Milk": "7603",
+    "Grocery": "8584",
+    "Frozen": "2540",
+    "Detergents_Paper": "3674",
+    "Delicassen": "238"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "15615",
+    "Milk": "12653",
+    "Grocery": "19858",
+    "Frozen": "4425",
+    "Detergents_Paper": "7108",
+    "Delicassen": "2379"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4822",
+    "Milk": "6721",
+    "Grocery": "9170",
+    "Frozen": "993",
+    "Detergents_Paper": "4973",
+    "Delicassen": "3637"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2926",
+    "Milk": "3195",
+    "Grocery": "3268",
+    "Frozen": "405",
+    "Detergents_Paper": "1680",
+    "Delicassen": "693"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5809",
+    "Milk": "735",
+    "Grocery": "803",
+    "Frozen": "1393",
+    "Detergents_Paper": "79",
+    "Delicassen": "429"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5414",
+    "Milk": "717",
+    "Grocery": "2155",
+    "Frozen": "2399",
+    "Detergents_Paper": "69",
+    "Delicassen": "750"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "260",
+    "Milk": "8675",
+    "Grocery": "13430",
+    "Frozen": "1116",
+    "Detergents_Paper": "7015",
+    "Delicassen": "323"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "200",
+    "Milk": "25862",
+    "Grocery": "19816",
+    "Frozen": "651",
+    "Detergents_Paper": "8773",
+    "Delicassen": "6250"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "955",
+    "Milk": "5479",
+    "Grocery": "6536",
+    "Frozen": "333",
+    "Detergents_Paper": "2840",
+    "Delicassen": "707"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "514",
+    "Milk": "7677",
+    "Grocery": "19805",
+    "Frozen": "937",
+    "Detergents_Paper": "9836",
+    "Delicassen": "716"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "286",
+    "Milk": "1208",
+    "Grocery": "5241",
+    "Frozen": "2515",
+    "Detergents_Paper": "153",
+    "Delicassen": "1442"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "2343",
+    "Milk": "7845",
+    "Grocery": "11874",
+    "Frozen": "52",
+    "Detergents_Paper": "4196",
+    "Delicassen": "1697"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "45640",
+    "Milk": "6958",
+    "Grocery": "6536",
+    "Frozen": "7368",
+    "Detergents_Paper": "1532",
+    "Delicassen": "230"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "12759",
+    "Milk": "7330",
+    "Grocery": "4533",
+    "Frozen": "1752",
+    "Detergents_Paper": "20",
+    "Delicassen": "2631"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11002",
+    "Milk": "7075",
+    "Grocery": "4945",
+    "Frozen": "1152",
+    "Detergents_Paper": "120",
+    "Delicassen": "395"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3157",
+    "Milk": "4888",
+    "Grocery": "2500",
+    "Frozen": "4477",
+    "Detergents_Paper": "273",
+    "Delicassen": "2165"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "12356",
+    "Milk": "6036",
+    "Grocery": "8887",
+    "Frozen": "402",
+    "Detergents_Paper": "1382",
+    "Delicassen": "2794"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "112151",
+    "Milk": "29627",
+    "Grocery": "18148",
+    "Frozen": "16745",
+    "Detergents_Paper": "4948",
+    "Delicassen": "8550"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "694",
+    "Milk": "8533",
+    "Grocery": "10518",
+    "Frozen": "443",
+    "Detergents_Paper": "6907",
+    "Delicassen": "156"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "36847",
+    "Milk": "43950",
+    "Grocery": "20170",
+    "Frozen": "36534",
+    "Detergents_Paper": "239",
+    "Delicassen": "47943"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "327",
+    "Milk": "918",
+    "Grocery": "4710",
+    "Frozen": "74",
+    "Detergents_Paper": "334",
+    "Delicassen": "11"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "8170",
+    "Milk": "6448",
+    "Grocery": "1139",
+    "Frozen": "2181",
+    "Detergents_Paper": "58",
+    "Delicassen": "247"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3009",
+    "Milk": "521",
+    "Grocery": "854",
+    "Frozen": "3470",
+    "Detergents_Paper": "949",
+    "Delicassen": "727"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2438",
+    "Milk": "8002",
+    "Grocery": "9819",
+    "Frozen": "6269",
+    "Detergents_Paper": "3459",
+    "Delicassen": "3"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "8040",
+    "Milk": "7639",
+    "Grocery": "11687",
+    "Frozen": "2758",
+    "Detergents_Paper": "6839",
+    "Delicassen": "404"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "834",
+    "Milk": "11577",
+    "Grocery": "11522",
+    "Frozen": "275",
+    "Detergents_Paper": "4027",
+    "Delicassen": "1856"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "16936",
+    "Milk": "6250",
+    "Grocery": "1981",
+    "Frozen": "7332",
+    "Detergents_Paper": "118",
+    "Delicassen": "64"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "13624",
+    "Milk": "295",
+    "Grocery": "1381",
+    "Frozen": "890",
+    "Detergents_Paper": "43",
+    "Delicassen": "84"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5509",
+    "Milk": "1461",
+    "Grocery": "2251",
+    "Frozen": "547",
+    "Detergents_Paper": "187",
+    "Delicassen": "409"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "180",
+    "Milk": "3485",
+    "Grocery": "20292",
+    "Frozen": "959",
+    "Detergents_Paper": "5618",
+    "Delicassen": "666"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "7107",
+    "Milk": "1012",
+    "Grocery": "2974",
+    "Frozen": "806",
+    "Detergents_Paper": "355",
+    "Delicassen": "1142"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "17023",
+    "Milk": "5139",
+    "Grocery": "5230",
+    "Frozen": "7888",
+    "Detergents_Paper": "330",
+    "Delicassen": "1755"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "30624",
+    "Milk": "7209",
+    "Grocery": "4897",
+    "Frozen": "18711",
+    "Detergents_Paper": "763",
+    "Delicassen": "2876"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "2427",
+    "Milk": "7097",
+    "Grocery": "10391",
+    "Frozen": "1127",
+    "Detergents_Paper": "4314",
+    "Delicassen": "1468"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "11686",
+    "Milk": "2154",
+    "Grocery": "6824",
+    "Frozen": "3527",
+    "Detergents_Paper": "592",
+    "Delicassen": "697"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "9670",
+    "Milk": "2280",
+    "Grocery": "2112",
+    "Frozen": "520",
+    "Detergents_Paper": "402",
+    "Delicassen": "347"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "3067",
+    "Milk": "13240",
+    "Grocery": "23127",
+    "Frozen": "3941",
+    "Detergents_Paper": "9959",
+    "Delicassen": "731"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "4484",
+    "Milk": "14399",
+    "Grocery": "24708",
+    "Frozen": "3549",
+    "Detergents_Paper": "14235",
+    "Delicassen": "1681"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "25203",
+    "Milk": "11487",
+    "Grocery": "9490",
+    "Frozen": "5065",
+    "Detergents_Paper": "284",
+    "Delicassen": "6854"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "583",
+    "Milk": "685",
+    "Grocery": "2216",
+    "Frozen": "469",
+    "Detergents_Paper": "954",
+    "Delicassen": "18"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "1956",
+    "Milk": "891",
+    "Grocery": "5226",
+    "Frozen": "1383",
+    "Detergents_Paper": "5",
+    "Delicassen": "1328"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "1107",
+    "Milk": "11711",
+    "Grocery": "23596",
+    "Frozen": "955",
+    "Detergents_Paper": "9265",
+    "Delicassen": "710"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "6373",
+    "Milk": "780",
+    "Grocery": "950",
+    "Frozen": "878",
+    "Detergents_Paper": "288",
+    "Delicassen": "285"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "2541",
+    "Milk": "4737",
+    "Grocery": "6089",
+    "Frozen": "2946",
+    "Detergents_Paper": "5316",
+    "Delicassen": "120"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "1537",
+    "Milk": "3748",
+    "Grocery": "5838",
+    "Frozen": "1859",
+    "Detergents_Paper": "3381",
+    "Delicassen": "806"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "5550",
+    "Milk": "12729",
+    "Grocery": "16767",
+    "Frozen": "864",
+    "Detergents_Paper": "12420",
+    "Delicassen": "797"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "18567",
+    "Milk": "1895",
+    "Grocery": "1393",
+    "Frozen": "1801",
+    "Detergents_Paper": "244",
+    "Delicassen": "2100"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "12119",
+    "Milk": "28326",
+    "Grocery": "39694",
+    "Frozen": "4736",
+    "Detergents_Paper": "19410",
+    "Delicassen": "2870"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "7291",
+    "Milk": "1012",
+    "Grocery": "2062",
+    "Frozen": "1291",
+    "Detergents_Paper": "240",
+    "Delicassen": "1775"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "3317",
+    "Milk": "6602",
+    "Grocery": "6861",
+    "Frozen": "1329",
+    "Detergents_Paper": "3961",
+    "Delicassen": "1215"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "2362",
+    "Milk": "6551",
+    "Grocery": "11364",
+    "Frozen": "913",
+    "Detergents_Paper": "5957",
+    "Delicassen": "791"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "2806",
+    "Milk": "10765",
+    "Grocery": "15538",
+    "Frozen": "1374",
+    "Detergents_Paper": "5828",
+    "Delicassen": "2388"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "2532",
+    "Milk": "16599",
+    "Grocery": "36486",
+    "Frozen": "179",
+    "Detergents_Paper": "13308",
+    "Delicassen": "674"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "18044",
+    "Milk": "1475",
+    "Grocery": "2046",
+    "Frozen": "2532",
+    "Detergents_Paper": "130",
+    "Delicassen": "1158"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "18",
+    "Milk": "7504",
+    "Grocery": "15205",
+    "Frozen": "1285",
+    "Detergents_Paper": "4797",
+    "Delicassen": "6372"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "4155",
+    "Milk": "367",
+    "Grocery": "1390",
+    "Frozen": "2306",
+    "Detergents_Paper": "86",
+    "Delicassen": "130"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "14755",
+    "Milk": "899",
+    "Grocery": "1382",
+    "Frozen": "1765",
+    "Detergents_Paper": "56",
+    "Delicassen": "749"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "5396",
+    "Milk": "7503",
+    "Grocery": "10646",
+    "Frozen": "91",
+    "Detergents_Paper": "4167",
+    "Delicassen": "239"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "5041",
+    "Milk": "1115",
+    "Grocery": "2856",
+    "Frozen": "7496",
+    "Detergents_Paper": "256",
+    "Delicassen": "375"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "2790",
+    "Milk": "2527",
+    "Grocery": "5265",
+    "Frozen": "5612",
+    "Detergents_Paper": "788",
+    "Delicassen": "1360"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "7274",
+    "Milk": "659",
+    "Grocery": "1499",
+    "Frozen": "784",
+    "Detergents_Paper": "70",
+    "Delicassen": "659"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "12680",
+    "Milk": "3243",
+    "Grocery": "4157",
+    "Frozen": "660",
+    "Detergents_Paper": "761",
+    "Delicassen": "786"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "20782",
+    "Milk": "5921",
+    "Grocery": "9212",
+    "Frozen": "1759",
+    "Detergents_Paper": "2568",
+    "Delicassen": "1553"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "4042",
+    "Milk": "2204",
+    "Grocery": "1563",
+    "Frozen": "2286",
+    "Detergents_Paper": "263",
+    "Delicassen": "689"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "1869",
+    "Milk": "577",
+    "Grocery": "572",
+    "Frozen": "950",
+    "Detergents_Paper": "4762",
+    "Delicassen": "203"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "8656",
+    "Milk": "2746",
+    "Grocery": "2501",
+    "Frozen": "6845",
+    "Detergents_Paper": "694",
+    "Delicassen": "980"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "11072",
+    "Milk": "5989",
+    "Grocery": "5615",
+    "Frozen": "8321",
+    "Detergents_Paper": "955",
+    "Delicassen": "2137"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "2344",
+    "Milk": "10678",
+    "Grocery": "3828",
+    "Frozen": "1439",
+    "Detergents_Paper": "1566",
+    "Delicassen": "490"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "25962",
+    "Milk": "1780",
+    "Grocery": "3838",
+    "Frozen": "638",
+    "Detergents_Paper": "284",
+    "Delicassen": "834"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "964",
+    "Milk": "4984",
+    "Grocery": "3316",
+    "Frozen": "937",
+    "Detergents_Paper": "409",
+    "Delicassen": "7"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "15603",
+    "Milk": "2703",
+    "Grocery": "3833",
+    "Frozen": "4260",
+    "Detergents_Paper": "325",
+    "Delicassen": "2563"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "1838",
+    "Milk": "6380",
+    "Grocery": "2824",
+    "Frozen": "1218",
+    "Detergents_Paper": "1216",
+    "Delicassen": "295"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "8635",
+    "Milk": "820",
+    "Grocery": "3047",
+    "Frozen": "2312",
+    "Detergents_Paper": "415",
+    "Delicassen": "225"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "18692",
+    "Milk": "3838",
+    "Grocery": "593",
+    "Frozen": "4634",
+    "Detergents_Paper": "28",
+    "Delicassen": "1215"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "7363",
+    "Milk": "475",
+    "Grocery": "585",
+    "Frozen": "1112",
+    "Detergents_Paper": "72",
+    "Delicassen": "216"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "47493",
+    "Milk": "2567",
+    "Grocery": "3779",
+    "Frozen": "5243",
+    "Detergents_Paper": "828",
+    "Delicassen": "2253"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "22096",
+    "Milk": "3575",
+    "Grocery": "7041",
+    "Frozen": "11422",
+    "Detergents_Paper": "343",
+    "Delicassen": "2564"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "24929",
+    "Milk": "1801",
+    "Grocery": "2475",
+    "Frozen": "2216",
+    "Detergents_Paper": "412",
+    "Delicassen": "1047"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "18226",
+    "Milk": "659",
+    "Grocery": "2914",
+    "Frozen": "3752",
+    "Detergents_Paper": "586",
+    "Delicassen": "578"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "11210",
+    "Milk": "3576",
+    "Grocery": "5119",
+    "Frozen": "561",
+    "Detergents_Paper": "1682",
+    "Delicassen": "2398"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "6202",
+    "Milk": "7775",
+    "Grocery": "10817",
+    "Frozen": "1183",
+    "Detergents_Paper": "3143",
+    "Delicassen": "1970"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "3062",
+    "Milk": "6154",
+    "Grocery": "13916",
+    "Frozen": "230",
+    "Detergents_Paper": "8933",
+    "Delicassen": "2784"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "8885",
+    "Milk": "2428",
+    "Grocery": "1777",
+    "Frozen": "1777",
+    "Detergents_Paper": "430",
+    "Delicassen": "610"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "13569",
+    "Milk": "346",
+    "Grocery": "489",
+    "Frozen": "2077",
+    "Detergents_Paper": "44",
+    "Delicassen": "659"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "15671",
+    "Milk": "5279",
+    "Grocery": "2406",
+    "Frozen": "559",
+    "Detergents_Paper": "562",
+    "Delicassen": "572"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "8040",
+    "Milk": "3795",
+    "Grocery": "2070",
+    "Frozen": "6340",
+    "Detergents_Paper": "918",
+    "Delicassen": "291"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "3191",
+    "Milk": "1993",
+    "Grocery": "1799",
+    "Frozen": "1730",
+    "Detergents_Paper": "234",
+    "Delicassen": "710"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "6134",
+    "Milk": "23133",
+    "Grocery": "33586",
+    "Frozen": "6746",
+    "Detergents_Paper": "18594",
+    "Delicassen": "5121"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "6623",
+    "Milk": "1860",
+    "Grocery": "4740",
+    "Frozen": "7683",
+    "Detergents_Paper": "205",
+    "Delicassen": "1693"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "29526",
+    "Milk": "7961",
+    "Grocery": "16966",
+    "Frozen": "432",
+    "Detergents_Paper": "363",
+    "Delicassen": "1391"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "10379",
+    "Milk": "17972",
+    "Grocery": "4748",
+    "Frozen": "4686",
+    "Detergents_Paper": "1547",
+    "Delicassen": "3265"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "31614",
+    "Milk": "489",
+    "Grocery": "1495",
+    "Frozen": "3242",
+    "Detergents_Paper": "111",
+    "Delicassen": "615"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "11092",
+    "Milk": "5008",
+    "Grocery": "5249",
+    "Frozen": "453",
+    "Detergents_Paper": "392",
+    "Delicassen": "373"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "8475",
+    "Milk": "1931",
+    "Grocery": "1883",
+    "Frozen": "5004",
+    "Detergents_Paper": "3593",
+    "Delicassen": "987"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "56083",
+    "Milk": "4563",
+    "Grocery": "2124",
+    "Frozen": "6422",
+    "Detergents_Paper": "730",
+    "Delicassen": "3321"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "53205",
+    "Milk": "4959",
+    "Grocery": "7336",
+    "Frozen": "3012",
+    "Detergents_Paper": "967",
+    "Delicassen": "818"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "9193",
+    "Milk": "4885",
+    "Grocery": "2157",
+    "Frozen": "327",
+    "Detergents_Paper": "780",
+    "Delicassen": "548"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "7858",
+    "Milk": "1110",
+    "Grocery": "1094",
+    "Frozen": "6818",
+    "Detergents_Paper": "49",
+    "Delicassen": "287"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "23257",
+    "Milk": "1372",
+    "Grocery": "1677",
+    "Frozen": "982",
+    "Detergents_Paper": "429",
+    "Delicassen": "655"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "2153",
+    "Milk": "1115",
+    "Grocery": "6684",
+    "Frozen": "4324",
+    "Detergents_Paper": "2894",
+    "Delicassen": "411"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "1073",
+    "Milk": "9679",
+    "Grocery": "15445",
+    "Frozen": "61",
+    "Detergents_Paper": "5980",
+    "Delicassen": "1265"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "5909",
+    "Milk": "23527",
+    "Grocery": "13699",
+    "Frozen": "10155",
+    "Detergents_Paper": "830",
+    "Delicassen": "3636"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "572",
+    "Milk": "9763",
+    "Grocery": "22182",
+    "Frozen": "2221",
+    "Detergents_Paper": "4882",
+    "Delicassen": "2563"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "20893",
+    "Milk": "1222",
+    "Grocery": "2576",
+    "Frozen": "3975",
+    "Detergents_Paper": "737",
+    "Delicassen": "3628"
+  },
+  {
+    "Channel": "2",
+    "Region": "1",
+    "Fresh": "11908",
+    "Milk": "8053",
+    "Grocery": "19847",
+    "Frozen": "1069",
+    "Detergents_Paper": "6374",
+    "Delicassen": "698"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "15218",
+    "Milk": "258",
+    "Grocery": "1138",
+    "Frozen": "2516",
+    "Detergents_Paper": "333",
+    "Delicassen": "204"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "4720",
+    "Milk": "1032",
+    "Grocery": "975",
+    "Frozen": "5500",
+    "Detergents_Paper": "197",
+    "Delicassen": "56"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "2083",
+    "Milk": "5007",
+    "Grocery": "1563",
+    "Frozen": "1120",
+    "Detergents_Paper": "147",
+    "Delicassen": "1550"
+  },
+  {
+    "Channel": "1",
+    "Region": "1",
+    "Fresh": "514",
+    "Milk": "8323",
+    "Grocery": "6869",
+    "Frozen": "529",
+    "Detergents_Paper": "93",
+    "Delicassen": "1040"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "36817",
+    "Milk": "3045",
+    "Grocery": "1493",
+    "Frozen": "4802",
+    "Detergents_Paper": "210",
+    "Delicassen": "1824"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "894",
+    "Milk": "1703",
+    "Grocery": "1841",
+    "Frozen": "744",
+    "Detergents_Paper": "759",
+    "Delicassen": "1153"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "680",
+    "Milk": "1610",
+    "Grocery": "223",
+    "Frozen": "862",
+    "Detergents_Paper": "96",
+    "Delicassen": "379"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "27901",
+    "Milk": "3749",
+    "Grocery": "6964",
+    "Frozen": "4479",
+    "Detergents_Paper": "603",
+    "Delicassen": "2503"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9061",
+    "Milk": "829",
+    "Grocery": "683",
+    "Frozen": "16919",
+    "Detergents_Paper": "621",
+    "Delicassen": "139"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11693",
+    "Milk": "2317",
+    "Grocery": "2543",
+    "Frozen": "5845",
+    "Detergents_Paper": "274",
+    "Delicassen": "1409"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "17360",
+    "Milk": "6200",
+    "Grocery": "9694",
+    "Frozen": "1293",
+    "Detergents_Paper": "3620",
+    "Delicassen": "1721"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3366",
+    "Milk": "2884",
+    "Grocery": "2431",
+    "Frozen": "977",
+    "Detergents_Paper": "167",
+    "Delicassen": "1104"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "12238",
+    "Milk": "7108",
+    "Grocery": "6235",
+    "Frozen": "1093",
+    "Detergents_Paper": "2328",
+    "Delicassen": "2079"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "49063",
+    "Milk": "3965",
+    "Grocery": "4252",
+    "Frozen": "5970",
+    "Detergents_Paper": "1041",
+    "Delicassen": "1404"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "25767",
+    "Milk": "3613",
+    "Grocery": "2013",
+    "Frozen": "10303",
+    "Detergents_Paper": "314",
+    "Delicassen": "1384"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "68951",
+    "Milk": "4411",
+    "Grocery": "12609",
+    "Frozen": "8692",
+    "Detergents_Paper": "751",
+    "Delicassen": "2406"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "40254",
+    "Milk": "640",
+    "Grocery": "3600",
+    "Frozen": "1042",
+    "Detergents_Paper": "436",
+    "Delicassen": "18"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "7149",
+    "Milk": "2247",
+    "Grocery": "1242",
+    "Frozen": "1619",
+    "Detergents_Paper": "1226",
+    "Delicassen": "128"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "15354",
+    "Milk": "2102",
+    "Grocery": "2828",
+    "Frozen": "8366",
+    "Detergents_Paper": "386",
+    "Delicassen": "1027"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "16260",
+    "Milk": "594",
+    "Grocery": "1296",
+    "Frozen": "848",
+    "Detergents_Paper": "445",
+    "Delicassen": "258"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "42786",
+    "Milk": "286",
+    "Grocery": "471",
+    "Frozen": "1388",
+    "Detergents_Paper": "32",
+    "Delicassen": "22"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2708",
+    "Milk": "2160",
+    "Grocery": "2642",
+    "Frozen": "502",
+    "Detergents_Paper": "965",
+    "Delicassen": "1522"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6022",
+    "Milk": "3354",
+    "Grocery": "3261",
+    "Frozen": "2507",
+    "Detergents_Paper": "212",
+    "Delicassen": "686"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2838",
+    "Milk": "3086",
+    "Grocery": "4329",
+    "Frozen": "3838",
+    "Detergents_Paper": "825",
+    "Delicassen": "1060"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "3996",
+    "Milk": "11103",
+    "Grocery": "12469",
+    "Frozen": "902",
+    "Detergents_Paper": "5952",
+    "Delicassen": "741"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "21273",
+    "Milk": "2013",
+    "Grocery": "6550",
+    "Frozen": "909",
+    "Detergents_Paper": "811",
+    "Delicassen": "1854"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "7588",
+    "Milk": "1897",
+    "Grocery": "5234",
+    "Frozen": "417",
+    "Detergents_Paper": "2208",
+    "Delicassen": "254"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "19087",
+    "Milk": "1304",
+    "Grocery": "3643",
+    "Frozen": "3045",
+    "Detergents_Paper": "710",
+    "Delicassen": "898"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "8090",
+    "Milk": "3199",
+    "Grocery": "6986",
+    "Frozen": "1455",
+    "Detergents_Paper": "3712",
+    "Delicassen": "531"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "6758",
+    "Milk": "4560",
+    "Grocery": "9965",
+    "Frozen": "934",
+    "Detergents_Paper": "4538",
+    "Delicassen": "1037"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "444",
+    "Milk": "879",
+    "Grocery": "2060",
+    "Frozen": "264",
+    "Detergents_Paper": "290",
+    "Delicassen": "259"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "16448",
+    "Milk": "6243",
+    "Grocery": "6360",
+    "Frozen": "824",
+    "Detergents_Paper": "2662",
+    "Delicassen": "2005"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "5283",
+    "Milk": "13316",
+    "Grocery": "20399",
+    "Frozen": "1809",
+    "Detergents_Paper": "8752",
+    "Delicassen": "172"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "2886",
+    "Milk": "5302",
+    "Grocery": "9785",
+    "Frozen": "364",
+    "Detergents_Paper": "6236",
+    "Delicassen": "555"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "2599",
+    "Milk": "3688",
+    "Grocery": "13829",
+    "Frozen": "492",
+    "Detergents_Paper": "10069",
+    "Delicassen": "59"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "161",
+    "Milk": "7460",
+    "Grocery": "24773",
+    "Frozen": "617",
+    "Detergents_Paper": "11783",
+    "Delicassen": "2410"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "243",
+    "Milk": "12939",
+    "Grocery": "8852",
+    "Frozen": "799",
+    "Detergents_Paper": "3909",
+    "Delicassen": "211"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "6468",
+    "Milk": "12867",
+    "Grocery": "21570",
+    "Frozen": "1840",
+    "Detergents_Paper": "7558",
+    "Delicassen": "1543"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "17327",
+    "Milk": "2374",
+    "Grocery": "2842",
+    "Frozen": "1149",
+    "Detergents_Paper": "351",
+    "Delicassen": "925"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "6987",
+    "Milk": "1020",
+    "Grocery": "3007",
+    "Frozen": "416",
+    "Detergents_Paper": "257",
+    "Delicassen": "656"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "918",
+    "Milk": "20655",
+    "Grocery": "13567",
+    "Frozen": "1465",
+    "Detergents_Paper": "6846",
+    "Delicassen": "806"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "7034",
+    "Milk": "1492",
+    "Grocery": "2405",
+    "Frozen": "12569",
+    "Detergents_Paper": "299",
+    "Delicassen": "1117"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "29635",
+    "Milk": "2335",
+    "Grocery": "8280",
+    "Frozen": "3046",
+    "Detergents_Paper": "371",
+    "Delicassen": "117"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "2137",
+    "Milk": "3737",
+    "Grocery": "19172",
+    "Frozen": "1274",
+    "Detergents_Paper": "17120",
+    "Delicassen": "142"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "9784",
+    "Milk": "925",
+    "Grocery": "2405",
+    "Frozen": "4447",
+    "Detergents_Paper": "183",
+    "Delicassen": "297"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "10617",
+    "Milk": "1795",
+    "Grocery": "7647",
+    "Frozen": "1483",
+    "Detergents_Paper": "857",
+    "Delicassen": "1233"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "1479",
+    "Milk": "14982",
+    "Grocery": "11924",
+    "Frozen": "662",
+    "Detergents_Paper": "3891",
+    "Delicassen": "3508"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "7127",
+    "Milk": "1375",
+    "Grocery": "2201",
+    "Frozen": "2679",
+    "Detergents_Paper": "83",
+    "Delicassen": "1059"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "1182",
+    "Milk": "3088",
+    "Grocery": "6114",
+    "Frozen": "978",
+    "Detergents_Paper": "821",
+    "Delicassen": "1637"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "11800",
+    "Milk": "2713",
+    "Grocery": "3558",
+    "Frozen": "2121",
+    "Detergents_Paper": "706",
+    "Delicassen": "51"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "9759",
+    "Milk": "25071",
+    "Grocery": "17645",
+    "Frozen": "1128",
+    "Detergents_Paper": "12408",
+    "Delicassen": "1625"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "1774",
+    "Milk": "3696",
+    "Grocery": "2280",
+    "Frozen": "514",
+    "Detergents_Paper": "275",
+    "Delicassen": "834"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "9155",
+    "Milk": "1897",
+    "Grocery": "5167",
+    "Frozen": "2714",
+    "Detergents_Paper": "228",
+    "Delicassen": "1113"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "15881",
+    "Milk": "713",
+    "Grocery": "3315",
+    "Frozen": "3703",
+    "Detergents_Paper": "1470",
+    "Delicassen": "229"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "13360",
+    "Milk": "944",
+    "Grocery": "11593",
+    "Frozen": "915",
+    "Detergents_Paper": "1679",
+    "Delicassen": "573"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "25977",
+    "Milk": "3587",
+    "Grocery": "2464",
+    "Frozen": "2369",
+    "Detergents_Paper": "140",
+    "Delicassen": "1092"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "32717",
+    "Milk": "16784",
+    "Grocery": "13626",
+    "Frozen": "60869",
+    "Detergents_Paper": "1272",
+    "Delicassen": "5609"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "4414",
+    "Milk": "1610",
+    "Grocery": "1431",
+    "Frozen": "3498",
+    "Detergents_Paper": "387",
+    "Delicassen": "834"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "542",
+    "Milk": "899",
+    "Grocery": "1664",
+    "Frozen": "414",
+    "Detergents_Paper": "88",
+    "Delicassen": "522"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "16933",
+    "Milk": "2209",
+    "Grocery": "3389",
+    "Frozen": "7849",
+    "Detergents_Paper": "210",
+    "Delicassen": "1534"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "5113",
+    "Milk": "1486",
+    "Grocery": "4583",
+    "Frozen": "5127",
+    "Detergents_Paper": "492",
+    "Delicassen": "739"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "9790",
+    "Milk": "1786",
+    "Grocery": "5109",
+    "Frozen": "3570",
+    "Detergents_Paper": "182",
+    "Delicassen": "1043"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "11223",
+    "Milk": "14881",
+    "Grocery": "26839",
+    "Frozen": "1234",
+    "Detergents_Paper": "9606",
+    "Delicassen": "1102"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "22321",
+    "Milk": "3216",
+    "Grocery": "1447",
+    "Frozen": "2208",
+    "Detergents_Paper": "178",
+    "Delicassen": "2602"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "8565",
+    "Milk": "4980",
+    "Grocery": "67298",
+    "Frozen": "131",
+    "Detergents_Paper": "38102",
+    "Delicassen": "1215"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "16823",
+    "Milk": "928",
+    "Grocery": "2743",
+    "Frozen": "11559",
+    "Detergents_Paper": "332",
+    "Delicassen": "3486"
+  },
+  {
+    "Channel": "2",
+    "Region": "2",
+    "Fresh": "27082",
+    "Milk": "6817",
+    "Grocery": "10790",
+    "Frozen": "1365",
+    "Detergents_Paper": "4111",
+    "Delicassen": "2139"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "13970",
+    "Milk": "1511",
+    "Grocery": "1330",
+    "Frozen": "650",
+    "Detergents_Paper": "146",
+    "Delicassen": "778"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "9351",
+    "Milk": "1347",
+    "Grocery": "2611",
+    "Frozen": "8170",
+    "Detergents_Paper": "442",
+    "Delicassen": "868"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "3",
+    "Milk": "333",
+    "Grocery": "7021",
+    "Frozen": "15601",
+    "Detergents_Paper": "15",
+    "Delicassen": "550"
+  },
+  {
+    "Channel": "1",
+    "Region": "2",
+    "Fresh": "2617",
+    "Milk": "1188",
+    "Grocery": "5332",
+    "Frozen": "9584",
+    "Detergents_Paper": "573",
+    "Delicassen": "1942"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "381",
+    "Milk": "4025",
+    "Grocery": "9670",
+    "Frozen": "388",
+    "Detergents_Paper": "7271",
+    "Delicassen": "1371"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "2320",
+    "Milk": "5763",
+    "Grocery": "11238",
+    "Frozen": "767",
+    "Detergents_Paper": "5162",
+    "Delicassen": "2158"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "255",
+    "Milk": "5758",
+    "Grocery": "5923",
+    "Frozen": "349",
+    "Detergents_Paper": "4595",
+    "Delicassen": "1328"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1689",
+    "Milk": "6964",
+    "Grocery": "26316",
+    "Frozen": "1456",
+    "Detergents_Paper": "15469",
+    "Delicassen": "37"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3043",
+    "Milk": "1172",
+    "Grocery": "1763",
+    "Frozen": "2234",
+    "Detergents_Paper": "217",
+    "Delicassen": "379"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "1198",
+    "Milk": "2602",
+    "Grocery": "8335",
+    "Frozen": "402",
+    "Detergents_Paper": "3843",
+    "Delicassen": "303"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "2771",
+    "Milk": "6939",
+    "Grocery": "15541",
+    "Frozen": "2693",
+    "Detergents_Paper": "6600",
+    "Delicassen": "1115"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "27380",
+    "Milk": "7184",
+    "Grocery": "12311",
+    "Frozen": "2809",
+    "Detergents_Paper": "4621",
+    "Delicassen": "1022"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3428",
+    "Milk": "2380",
+    "Grocery": "2028",
+    "Frozen": "1341",
+    "Detergents_Paper": "1184",
+    "Delicassen": "665"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "5981",
+    "Milk": "14641",
+    "Grocery": "20521",
+    "Frozen": "2005",
+    "Detergents_Paper": "12218",
+    "Delicassen": "445"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3521",
+    "Milk": "1099",
+    "Grocery": "1997",
+    "Frozen": "1796",
+    "Detergents_Paper": "173",
+    "Delicassen": "995"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "1210",
+    "Milk": "10044",
+    "Grocery": "22294",
+    "Frozen": "1741",
+    "Detergents_Paper": "12638",
+    "Delicassen": "3137"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "608",
+    "Milk": "1106",
+    "Grocery": "1533",
+    "Frozen": "830",
+    "Detergents_Paper": "90",
+    "Delicassen": "195"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "117",
+    "Milk": "6264",
+    "Grocery": "21203",
+    "Frozen": "228",
+    "Detergents_Paper": "8682",
+    "Delicassen": "1111"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "14039",
+    "Milk": "7393",
+    "Grocery": "2548",
+    "Frozen": "6386",
+    "Detergents_Paper": "1333",
+    "Delicassen": "2341"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "190",
+    "Milk": "727",
+    "Grocery": "2012",
+    "Frozen": "245",
+    "Detergents_Paper": "184",
+    "Delicassen": "127"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "22686",
+    "Milk": "134",
+    "Grocery": "218",
+    "Frozen": "3157",
+    "Detergents_Paper": "9",
+    "Delicassen": "548"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "37",
+    "Milk": "1275",
+    "Grocery": "22272",
+    "Frozen": "137",
+    "Detergents_Paper": "6747",
+    "Delicassen": "110"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "759",
+    "Milk": "18664",
+    "Grocery": "1660",
+    "Frozen": "6114",
+    "Detergents_Paper": "536",
+    "Delicassen": "4100"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "796",
+    "Milk": "5878",
+    "Grocery": "2109",
+    "Frozen": "340",
+    "Detergents_Paper": "232",
+    "Delicassen": "776"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "19746",
+    "Milk": "2872",
+    "Grocery": "2006",
+    "Frozen": "2601",
+    "Detergents_Paper": "468",
+    "Delicassen": "503"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4734",
+    "Milk": "607",
+    "Grocery": "864",
+    "Frozen": "1206",
+    "Detergents_Paper": "159",
+    "Delicassen": "405"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2121",
+    "Milk": "1601",
+    "Grocery": "2453",
+    "Frozen": "560",
+    "Detergents_Paper": "179",
+    "Delicassen": "712"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4627",
+    "Milk": "997",
+    "Grocery": "4438",
+    "Frozen": "191",
+    "Detergents_Paper": "1335",
+    "Delicassen": "314"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2615",
+    "Milk": "873",
+    "Grocery": "1524",
+    "Frozen": "1103",
+    "Detergents_Paper": "514",
+    "Delicassen": "468"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4692",
+    "Milk": "6128",
+    "Grocery": "8025",
+    "Frozen": "1619",
+    "Detergents_Paper": "4515",
+    "Delicassen": "3105"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9561",
+    "Milk": "2217",
+    "Grocery": "1664",
+    "Frozen": "1173",
+    "Detergents_Paper": "222",
+    "Delicassen": "447"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3477",
+    "Milk": "894",
+    "Grocery": "534",
+    "Frozen": "1457",
+    "Detergents_Paper": "252",
+    "Delicassen": "342"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "22335",
+    "Milk": "1196",
+    "Grocery": "2406",
+    "Frozen": "2046",
+    "Detergents_Paper": "101",
+    "Delicassen": "558"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6211",
+    "Milk": "337",
+    "Grocery": "683",
+    "Frozen": "1089",
+    "Detergents_Paper": "41",
+    "Delicassen": "296"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "39679",
+    "Milk": "3944",
+    "Grocery": "4955",
+    "Frozen": "1364",
+    "Detergents_Paper": "523",
+    "Delicassen": "2235"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "20105",
+    "Milk": "1887",
+    "Grocery": "1939",
+    "Frozen": "8164",
+    "Detergents_Paper": "716",
+    "Delicassen": "790"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3884",
+    "Milk": "3801",
+    "Grocery": "1641",
+    "Frozen": "876",
+    "Detergents_Paper": "397",
+    "Delicassen": "4829"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "15076",
+    "Milk": "6257",
+    "Grocery": "7398",
+    "Frozen": "1504",
+    "Detergents_Paper": "1916",
+    "Delicassen": "3113"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6338",
+    "Milk": "2256",
+    "Grocery": "1668",
+    "Frozen": "1492",
+    "Detergents_Paper": "311",
+    "Delicassen": "686"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5841",
+    "Milk": "1450",
+    "Grocery": "1162",
+    "Frozen": "597",
+    "Detergents_Paper": "476",
+    "Delicassen": "70"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "3136",
+    "Milk": "8630",
+    "Grocery": "13586",
+    "Frozen": "5641",
+    "Detergents_Paper": "4666",
+    "Delicassen": "1426"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "38793",
+    "Milk": "3154",
+    "Grocery": "2648",
+    "Frozen": "1034",
+    "Detergents_Paper": "96",
+    "Delicassen": "1242"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3225",
+    "Milk": "3294",
+    "Grocery": "1902",
+    "Frozen": "282",
+    "Detergents_Paper": "68",
+    "Delicassen": "1114"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4048",
+    "Milk": "5164",
+    "Grocery": "10391",
+    "Frozen": "130",
+    "Detergents_Paper": "813",
+    "Delicassen": "179"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "28257",
+    "Milk": "944",
+    "Grocery": "2146",
+    "Frozen": "3881",
+    "Detergents_Paper": "600",
+    "Delicassen": "270"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "17770",
+    "Milk": "4591",
+    "Grocery": "1617",
+    "Frozen": "9927",
+    "Detergents_Paper": "246",
+    "Delicassen": "532"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "34454",
+    "Milk": "7435",
+    "Grocery": "8469",
+    "Frozen": "2540",
+    "Detergents_Paper": "1711",
+    "Delicassen": "2893"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "1821",
+    "Milk": "1364",
+    "Grocery": "3450",
+    "Frozen": "4006",
+    "Detergents_Paper": "397",
+    "Delicassen": "361"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "10683",
+    "Milk": "21858",
+    "Grocery": "15400",
+    "Frozen": "3635",
+    "Detergents_Paper": "282",
+    "Delicassen": "5120"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11635",
+    "Milk": "922",
+    "Grocery": "1614",
+    "Frozen": "2583",
+    "Detergents_Paper": "192",
+    "Delicassen": "1068"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "1206",
+    "Milk": "3620",
+    "Grocery": "2857",
+    "Frozen": "1945",
+    "Detergents_Paper": "353",
+    "Delicassen": "967"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "20918",
+    "Milk": "1916",
+    "Grocery": "1573",
+    "Frozen": "1960",
+    "Detergents_Paper": "231",
+    "Delicassen": "961"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9785",
+    "Milk": "848",
+    "Grocery": "1172",
+    "Frozen": "1677",
+    "Detergents_Paper": "200",
+    "Delicassen": "406"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9385",
+    "Milk": "1530",
+    "Grocery": "1422",
+    "Frozen": "3019",
+    "Detergents_Paper": "227",
+    "Delicassen": "684"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3352",
+    "Milk": "1181",
+    "Grocery": "1328",
+    "Frozen": "5502",
+    "Detergents_Paper": "311",
+    "Delicassen": "1000"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2647",
+    "Milk": "2761",
+    "Grocery": "2313",
+    "Frozen": "907",
+    "Detergents_Paper": "95",
+    "Delicassen": "1827"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "518",
+    "Milk": "4180",
+    "Grocery": "3600",
+    "Frozen": "659",
+    "Detergents_Paper": "122",
+    "Delicassen": "654"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "23632",
+    "Milk": "6730",
+    "Grocery": "3842",
+    "Frozen": "8620",
+    "Detergents_Paper": "385",
+    "Delicassen": "819"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "12377",
+    "Milk": "865",
+    "Grocery": "3204",
+    "Frozen": "1398",
+    "Detergents_Paper": "149",
+    "Delicassen": "452"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9602",
+    "Milk": "1316",
+    "Grocery": "1263",
+    "Frozen": "2921",
+    "Detergents_Paper": "841",
+    "Delicassen": "290"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4515",
+    "Milk": "11991",
+    "Grocery": "9345",
+    "Frozen": "2644",
+    "Detergents_Paper": "3378",
+    "Delicassen": "2213"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11535",
+    "Milk": "1666",
+    "Grocery": "1428",
+    "Frozen": "6838",
+    "Detergents_Paper": "64",
+    "Delicassen": "743"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11442",
+    "Milk": "1032",
+    "Grocery": "582",
+    "Frozen": "5390",
+    "Detergents_Paper": "74",
+    "Delicassen": "247"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "9612",
+    "Milk": "577",
+    "Grocery": "935",
+    "Frozen": "1601",
+    "Detergents_Paper": "469",
+    "Delicassen": "375"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4446",
+    "Milk": "906",
+    "Grocery": "1238",
+    "Frozen": "3576",
+    "Detergents_Paper": "153",
+    "Delicassen": "1014"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "27167",
+    "Milk": "2801",
+    "Grocery": "2128",
+    "Frozen": "13223",
+    "Detergents_Paper": "92",
+    "Delicassen": "1902"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "26539",
+    "Milk": "4753",
+    "Grocery": "5091",
+    "Frozen": "220",
+    "Detergents_Paper": "10",
+    "Delicassen": "340"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "25606",
+    "Milk": "11006",
+    "Grocery": "4604",
+    "Frozen": "127",
+    "Detergents_Paper": "632",
+    "Delicassen": "288"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "18073",
+    "Milk": "4613",
+    "Grocery": "3444",
+    "Frozen": "4324",
+    "Detergents_Paper": "914",
+    "Delicassen": "715"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6884",
+    "Milk": "1046",
+    "Grocery": "1167",
+    "Frozen": "2069",
+    "Detergents_Paper": "593",
+    "Delicassen": "378"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "25066",
+    "Milk": "5010",
+    "Grocery": "5026",
+    "Frozen": "9806",
+    "Detergents_Paper": "1092",
+    "Delicassen": "960"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "7362",
+    "Milk": "12844",
+    "Grocery": "18683",
+    "Frozen": "2854",
+    "Detergents_Paper": "7883",
+    "Delicassen": "553"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "8257",
+    "Milk": "3880",
+    "Grocery": "6407",
+    "Frozen": "1646",
+    "Detergents_Paper": "2730",
+    "Delicassen": "344"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "8708",
+    "Milk": "3634",
+    "Grocery": "6100",
+    "Frozen": "2349",
+    "Detergents_Paper": "2123",
+    "Delicassen": "5137"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "6633",
+    "Milk": "2096",
+    "Grocery": "4563",
+    "Frozen": "1389",
+    "Detergents_Paper": "1860",
+    "Delicassen": "1892"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2126",
+    "Milk": "3289",
+    "Grocery": "3281",
+    "Frozen": "1535",
+    "Detergents_Paper": "235",
+    "Delicassen": "4365"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "97",
+    "Milk": "3605",
+    "Grocery": "12400",
+    "Frozen": "98",
+    "Detergents_Paper": "2970",
+    "Delicassen": "62"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4983",
+    "Milk": "4859",
+    "Grocery": "6633",
+    "Frozen": "17866",
+    "Detergents_Paper": "912",
+    "Delicassen": "2435"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5969",
+    "Milk": "1990",
+    "Grocery": "3417",
+    "Frozen": "5679",
+    "Detergents_Paper": "1135",
+    "Delicassen": "290"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "7842",
+    "Milk": "6046",
+    "Grocery": "8552",
+    "Frozen": "1691",
+    "Detergents_Paper": "3540",
+    "Delicassen": "1874"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "4389",
+    "Milk": "10940",
+    "Grocery": "10908",
+    "Frozen": "848",
+    "Detergents_Paper": "6728",
+    "Delicassen": "993"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "5065",
+    "Milk": "5499",
+    "Grocery": "11055",
+    "Frozen": "364",
+    "Detergents_Paper": "3485",
+    "Delicassen": "1063"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "660",
+    "Milk": "8494",
+    "Grocery": "18622",
+    "Frozen": "133",
+    "Detergents_Paper": "6740",
+    "Delicassen": "776"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "8861",
+    "Milk": "3783",
+    "Grocery": "2223",
+    "Frozen": "633",
+    "Detergents_Paper": "1580",
+    "Delicassen": "1521"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "4456",
+    "Milk": "5266",
+    "Grocery": "13227",
+    "Frozen": "25",
+    "Detergents_Paper": "6818",
+    "Delicassen": "1393"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "17063",
+    "Milk": "4847",
+    "Grocery": "9053",
+    "Frozen": "1031",
+    "Detergents_Paper": "3415",
+    "Delicassen": "1784"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "26400",
+    "Milk": "1377",
+    "Grocery": "4172",
+    "Frozen": "830",
+    "Detergents_Paper": "948",
+    "Delicassen": "1218"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "17565",
+    "Milk": "3686",
+    "Grocery": "4657",
+    "Frozen": "1059",
+    "Detergents_Paper": "1803",
+    "Delicassen": "668"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "16980",
+    "Milk": "2884",
+    "Grocery": "12232",
+    "Frozen": "874",
+    "Detergents_Paper": "3213",
+    "Delicassen": "249"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "11243",
+    "Milk": "2408",
+    "Grocery": "2593",
+    "Frozen": "15348",
+    "Detergents_Paper": "108",
+    "Delicassen": "1886"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "13134",
+    "Milk": "9347",
+    "Grocery": "14316",
+    "Frozen": "3141",
+    "Detergents_Paper": "5079",
+    "Delicassen": "1894"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "31012",
+    "Milk": "16687",
+    "Grocery": "5429",
+    "Frozen": "15082",
+    "Detergents_Paper": "439",
+    "Delicassen": "1163"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3047",
+    "Milk": "5970",
+    "Grocery": "4910",
+    "Frozen": "2198",
+    "Detergents_Paper": "850",
+    "Delicassen": "317"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "8607",
+    "Milk": "1750",
+    "Grocery": "3580",
+    "Frozen": "47",
+    "Detergents_Paper": "84",
+    "Delicassen": "2501"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "3097",
+    "Milk": "4230",
+    "Grocery": "16483",
+    "Frozen": "575",
+    "Detergents_Paper": "241",
+    "Delicassen": "2080"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "8533",
+    "Milk": "5506",
+    "Grocery": "5160",
+    "Frozen": "13486",
+    "Detergents_Paper": "1377",
+    "Delicassen": "1498"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "21117",
+    "Milk": "1162",
+    "Grocery": "4754",
+    "Frozen": "269",
+    "Detergents_Paper": "1328",
+    "Delicassen": "395"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "1982",
+    "Milk": "3218",
+    "Grocery": "1493",
+    "Frozen": "1541",
+    "Detergents_Paper": "356",
+    "Delicassen": "1449"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "16731",
+    "Milk": "3922",
+    "Grocery": "7994",
+    "Frozen": "688",
+    "Detergents_Paper": "2371",
+    "Delicassen": "838"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "29703",
+    "Milk": "12051",
+    "Grocery": "16027",
+    "Frozen": "13135",
+    "Detergents_Paper": "182",
+    "Delicassen": "2204"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "39228",
+    "Milk": "1431",
+    "Grocery": "764",
+    "Frozen": "4510",
+    "Detergents_Paper": "93",
+    "Delicassen": "2346"
+  },
+  {
+    "Channel": "2",
+    "Region": "3",
+    "Fresh": "14531",
+    "Milk": "15488",
+    "Grocery": "30243",
+    "Frozen": "437",
+    "Detergents_Paper": "14841",
+    "Delicassen": "1867"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "10290",
+    "Milk": "1981",
+    "Grocery": "2232",
+    "Frozen": "1038",
+    "Detergents_Paper": "168",
+    "Delicassen": "2125"
+  },
+  {
+    "Channel": "1",
+    "Region": "3",
+    "Fresh": "2787",
+    "Milk": "1698",
+    "Grocery": "2510",
+    "Frozen": "65",
+    "Detergents_Paper": "477",
+    "Delicassen": "52"
   }
 ]
