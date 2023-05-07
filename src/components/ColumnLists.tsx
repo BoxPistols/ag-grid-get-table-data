@@ -5,11 +5,12 @@ import { Typography, Box } from "@mui/material"
 type ColumnListsProps = {
   keyList: string[]
   title?: string
+  sx?: any
 }
 
-const ColumnLists: React.FC<ColumnListsProps> = ({ keyList, title }) => {
+const ColumnLists: React.FC<ColumnListsProps> = ({ keyList, title,sx }) => {
   return (
-    <Box border={"1px solid #eee"} p={2}>
+    <Box border={"1px solid #eee"} px={1} py={2} sx={sx}>
       <Typography variant="body2" gutterBottom>
         {title}
       </Typography>
